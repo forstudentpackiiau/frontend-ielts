@@ -1,0 +1,24 @@
+{
+  "id": "writing-cambridge6-test1",
+  "title": "Cambridge 6 Writing Test 1",
+  "section": "writing",
+  "total_questions": 2,
+  "duration": 3600,
+  "questions": [
+    {
+      "question_id": "writing-task1",
+      "type": "Academic Writing Task 1",
+      "prompt": "The graph and table below give information about water use worldwide and water consumption in two different countries. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "image": "/images/writing/a6t1w1.jpg",
+      "minimum_words": 150,
+      "recommended_time_minutes": 20
+    },
+    {
+      "question_id": "writing-task2",
+      "type": "Academic Writing Task 2",
+      "prompt": "Today, the high sales of popular consumer goods reflect the power of advertising and not the real needs of the society in which they are sold. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+      "minimum_words": 250,
+      "recommended_time_minutes": 40
+    }
+  ]
+}

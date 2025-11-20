@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Update the domain when deploying to production -->
+  
+  <!-- Login page (public) -->
+  <url>
+    <loc>https://yourdomain.com/login</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Home/root redirects to login -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Note: Exam and Admin pages are behind authentication,
+       so they shouldn't be indexed by search engines -->
+</urlset>

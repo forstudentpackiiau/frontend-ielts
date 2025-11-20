@@ -1,0 +1,442 @@
+{
+  "id": "cambridge7-listening-test4",
+  "book": "cambridge7",
+  "section": "listening",
+  "title": "IELTS Book 7 Listening Test 4",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-4-Cambridge-7-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "Keiko",
+    "2": "JO6337",
+    "3": "4 months",
+    "4": "English",
+    "5": "children",
+    "6": "pets",
+    "7": "seafood",
+    "8": "tennis",
+    "9": "train",
+    "10": "this afternoon",
+    "11": "C",
+    "12": "B",
+    "13": "A",
+    "14": "B",
+    "15": "car park",
+    "16": "rose garden",
+    "17": "cafe",
+    "18": "cycling",
+    "19": "biology lesson",
+    "20": "viewing shelter",
+    "21": "5",
+    "22": "assessed",
+    "23": "A",
+    "24": "B",
+    "25": "A",
+    "26": "C",
+    "27": "media room",
+    "28": "resources room",
+    "29": "embassy",
+    "30": "statistics",
+    "31": "B",
+    "32": "C",
+    "33": "A",
+    "34": "water",
+    "35": "meat",
+    "36": "cheese",
+    "37": "new taste",
+    "38": "common",
+    "39": "bitterness",
+    "40": "minerals"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Homestay Application",
+      "questions": [
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "HOMESTAY APPLICATION",
+            "example": {
+              "text": "Surname:",
+              "answer": "Yuichini"
+            },
+            "items": [
+              {
+                "label": "First name:",
+                "id": 1
+              },
+              {
+                "label": "Sex:",
+                "text": "Family"
+              },
+              {
+                "label": "Nationality:",
+                "text": "Japanese"
+              },
+              {
+                "label": "Age:",
+                "text": "28 years"
+              },
+              {
+                "label": "Passport number:",
+                "id": 2
+              },
+              {
+                "label": "Present address:",
+                "text": "Room 21C, Willow College"
+              },
+              {
+                "label": "Length of homestay:",
+                "text": "approx",
+                "id": 3
+              },
+              {
+                "label": "Course enrolled in:",
+                "id": 4
+              },
+              {
+                "label": "Family preferences:",
+                "composite": true,
+                "items": [
+                  {
+                    "text": "no"
+                  },
+                  {
+                    "id": 5
+                  },
+                  "<br>",
+                  {
+                    "text": "no objection to"
+                  },
+                  {
+                    "id": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "short_answer",
+          "instruction": "Answer the questions below. Write NO MORE THAN TWO WORDS for each answer.",
+          "questions": [
+            {
+              "id": 7,
+              "text": "What does the student particularly like to eat?"
+            },
+            {
+              "id": 8,
+              "text": "What sport does the student play?"
+            },
+            {
+              "id": 9,
+              "text": "What mode of transport does the student prefer?"
+            },
+            {
+              "id": 10,
+              "text": "When will the student find out her homestay address?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Tour Information",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "What kind of tour is Sally leading?",
+              "options": [
+                "A. a bus tour",
+                "B. a train tour",
+                "C. a walking tour"
+              ]
+            },
+            {
+              "id": 12,
+              "text": "The original buildings on the site were",
+              "options": ["A. houses", "B. industrial buildings", "C. shops"]
+            },
+            {
+              "id": 13,
+              "text": "The local residents wanted to use the site for",
+              "options": [
+                "A. leisure",
+                "B. apartment blocks",
+                "C. a sports centre"
+              ]
+            },
+            {
+              "id": 14,
+              "text": "The Tower is at the centre of the",
+              "options": [
+                "A. nature reserve",
+                "B. formal gardens",
+                "C. Bicentennial Park"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "plan_labeling",
+          "instruction": "Label the plan below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "image": "https://i0.wp.com/www.ieltsworldly.com/wp-content/uploads/2024/03/Label-the-plan-IELTS-Cambridge-Book-7-Listening-Test-4.webp",
+            "items": [
+              {
+                "id": 15
+              },
+              {
+                "id": 16
+              },
+              {
+                "id": 17
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Nature Reserve",
+            "headers": ["Area", "Facility", "Activity"],
+            "rows": [
+              {
+                "area": "The Mangrove",
+                "facility": "boardwalk",
+                "activity": {
+                  "id": 18
+                }
+              },
+              {
+                "area": "Frog Pond",
+                "facility": "outdoor classroom",
+                "activity": {
+                  "id": 19
+                }
+              },
+              {
+                "area": "The Waterbird Refuge",
+                "facility": {
+                  "id": 20
+                },
+                "activity": "bird watching"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Geography Presentation",
+      "questions": [
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "id": 21,
+              "text": "There will be",
+              "suffix": "minutes for questions."
+            },
+            {
+              "id": 22,
+              "text": "The presentation will not be"
+            }
+          ]
+        },
+        {
+          "type": "matching",
+          "instruction": "What do the students decide about each topic for the geography presentation? Write the correct letter, A, B or C, next to questions 23-26.",
+          "data": {
+            "options": [
+              "A. They will definitely include this topic.",
+              "B. They might include this topic.",
+              "C. They will not include this topic."
+            ],
+            "items": [
+              {
+                "id": 23,
+                "text": "Geographical Location"
+              },
+              {
+                "id": 24,
+                "text": "Economy"
+              },
+              {
+                "id": 25,
+                "text": "Overview of Education System"
+              },
+              {
+                "id": 26,
+                "text": "Role of English Language"
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "headers": ["Information/visual aid", "Where from?"],
+            "rows": [
+              {
+                "info": "Overhead projector",
+                "source": [
+                  "the",
+                  {
+                    "id": 27
+                  }
+                ]
+              },
+              {
+                "info": "Map of West Africa",
+                "source": [
+                  "the",
+                  {
+                    "id": 28
+                  }
+                ]
+              },
+              {
+                "info": "Map of the islands",
+                "source": "a tourist brochure"
+              },
+              {
+                "info": "Literacy figures",
+                "source": [
+                  "the",
+                  {
+                    "id": 29
+                  }
+                ]
+              },
+              {
+                "info": {
+                  "id": 30,
+                  "text": "Statistics"
+                },
+                "source": "as above"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Monosodium Glutamate (MSG)",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 31,
+              "text": "The speaker says the main topic of the lecture is",
+              "options": [
+                "A. the history of monosodium glutamate",
+                "B. the way monosodium glutamate works",
+                "C. where monosodium glutamate is used"
+              ]
+            },
+            {
+              "id": 32,
+              "text": "In 1908, scientists in Japan",
+              "options": [
+                "A. made monosodium glutamate",
+                "B. began using kombu",
+                "C. identified glutamate"
+              ]
+            },
+            {
+              "id": 33,
+              "text": "What change occurred in the manufacture of glutamate in 1956?",
+              "options": [
+                "A. It began to be manufactured on a large scale",
+                "B. The Japanese began extracting it from natural sources",
+                "C. It became much more expensive to produce"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Monosodium Glutamate (MSG)",
+            "sections": [
+              {
+                "items": [
+                  {
+                    "text": "MSG contains glutamate (78.2%), sodium (12.2%) and",
+                    "id": 34,
+                    "suffix": "(9.6%)"
+                  }
+                ]
+              },
+              {
+                "items": [
+                  {
+                    "text": "Glutamate is found in foods that contain protein such as",
+                    "id": 35,
+                    "suffix": "and"
+                  },
+                  {
+                    "id": 36
+                  }
+                ]
+              },
+              {
+                "items": [
+                  {
+                    "text": "MSG is used in foods in many different parts of the world."
+                  },
+                  {
+                    "text": "In 1908 Kikunae Ikeda discovered a",
+                    "id": 37
+                  },
+                  {
+                    "text": "Our ability to detect glutamate makes sense because it is so",
+                    "id": 38,
+                    "suffix": "naturally"
+                  }
+                ]
+              },
+              {
+                "title": "John Prescott suggests that:",
+                "items": [
+                  {
+                    "text": "Sweetness tells us that a food contains carbohydrates."
+                  },
+                  {
+                    "text": "",
+                    "id": 39,
+                    "suffix": "tells us that a food contains toxins"
+                  },
+                  {
+                    "text": "Sourness tells us that a food is spoiled."
+                  },
+                  {
+                    "text": "Saltiness tells us that a food contains",
+                    "id": 40
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

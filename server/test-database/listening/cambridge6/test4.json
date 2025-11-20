@@ -1,0 +1,420 @@
+{
+  "id": "cambridge6-listening-test4",
+  "book": "cambridge6",
+  "section": "listening",
+  "title": "IELTS Book 6 Listening Test 4",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-4-Cambridge-6-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "75",
+    "2": "check",
+    "3": "15",
+    "4": "25",
+    "5": "10 minutes",
+    "6": "conference pack",
+    "7": "south",
+    "8": "library",
+    "9": "5",
+    "10": "21A",
+    "11": "D",
+    "12": "A",
+    "13": "C",
+    "14": "tax",
+    "15": "security",
+    "16": "ground floor",
+    "17": "lecture room 311",
+    "18": "safety at work",
+    "19": "main hall",
+    "20": "team leaders",
+    "21": "reference",
+    "22": "textbooks",
+    "23": "secondary",
+    "24": "primary",
+    "25": "back",
+    "26": "overdue books",
+    "27": "7 working days",
+    "28": ["C", "E", "F"],
+    "29": "C",
+    "30": "E",
+    "31": "B",
+    "32": "A",
+    "33": "B",
+    "34": "C",
+    "35": "1450",
+    "36": "disease",
+    "37": "prince",
+    "38": "diet",
+    "39": "attack humans",
+    "40": "leadership"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Conference Information",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "Conference Information",
+            "example": {
+              "text": "Title of conference:",
+              "answer": "Future directions"
+            },
+            "sections": [
+              {
+                "title": "Three day cost:",
+                "items": [
+                  {
+                    "id": 1,
+                    "prefix": "£"
+                  },
+                  {
+                    "text": "Payment by",
+                    "id": 2,
+                    "suffix": "or on arrival"
+                  }
+                ]
+              },
+              {
+                "title": "Accommodation:",
+                "subsections": [
+                  {
+                    "title": "Conference centre",
+                    "items": [
+                      {
+                        "id": 3,
+                        "prefix": "£",
+                        "suffix": "per night"
+                      },
+                      "Near to conference rooms"
+                    ]
+                  },
+                  {
+                    "title": "Guest house",
+                    "items": [
+                      {
+                        "id": 4,
+                        "prefix": "£",
+                        "suffix": "per night"
+                      },
+                      {
+                        "text": "Approximately",
+                        "id": 5,
+                        "suffix": "walk from conference centre"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Further documents to be sent:",
+                "items": [
+                  {
+                    "id": 6
+                  },
+                  "An application form"
+                ]
+              },
+              {
+                "title": "Location:",
+                "items": [
+                  {
+                    "text": "Conference centre is on",
+                    "id": 7,
+                    "suffix": "Park road next to"
+                  },
+                  {
+                    "id": 8
+                  },
+                  {
+                    "text": "Taxi costs",
+                    "id": 9,
+                    "prefix": "£",
+                    "suffix": "or take bus number"
+                  },
+                  {
+                    "id": 10,
+                    "suffix": "from station"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Travel Expo Staff Orientation",
+      "questions": [
+        {
+          "type": "matching",
+          "instruction": "Which team will do each of the following jobs? Choose THREE answers from the box and write the correct letter A-D next to questions 11-13",
+          "data": {
+            "options": [
+              "A. the blue team",
+              "B. the yellow team",
+              "C. the green team",
+              "D. the red team"
+            ],
+            "items": [
+              {
+                "id": 11,
+                "text": "checking entrance tickets"
+              },
+              {
+                "id": 12,
+                "text": "preparing refreshments"
+              },
+              {
+                "id": 13,
+                "text": "directing car park traffic"
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "Travel Expo Temporary Staff Orientation Programme",
+            "headers": ["Time", "Event", "Details"],
+            "rows": [
+              {
+                "time": "9.30 am",
+                "event": "Talk by Anne Smith",
+                "details": [
+                  "information about pay",
+                  "will give out the",
+                  {
+                    "id": 14
+                  },
+                  "forms"
+                ]
+              },
+              {
+                "time": "10.00 am",
+                "event": "Talk by Peter Chang",
+                "details": [
+                  "will discuss conference centre plan",
+                  "will explain about arrangements for",
+                  {
+                    "id": 15
+                  },
+                  "and fire exits"
+                ]
+              },
+              {
+                "time": "10.30 am",
+                "event": "Coffee break",
+                "details": [
+                  "go to staff canteen on the",
+                  {
+                    "id": 16
+                  }
+                ]
+              },
+              {
+                "time": "11.00 am",
+                "event": "Video presentation",
+                "details": [
+                  "go to",
+                  {
+                    "id": 17
+                  },
+                  "video title:",
+                  {
+                    "id": 18
+                  }
+                ]
+              },
+              {
+                "time": "12.00",
+                "event": "Buffet lunch",
+                "details": [
+                  "go to the",
+                  {
+                    "id": 19
+                  },
+                  "on 1st floor"
+                ]
+              },
+              {
+                "time": "1.00 pm",
+                "event": [
+                  "Meet the",
+                  {
+                    "id": 20
+                  }
+                ],
+                "details": []
+              },
+              {
+                "time": "3.00 pm",
+                "event": "Finish",
+                "details": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "School of Education Libraries",
+      "questions": [
+        {
+          "type": "summary_completion",
+          "instruction": "Complete the summary below. Write ONE WORD ONLY for each answer.",
+          "data": {
+            "title": "The school of education libraries",
+            "items": [
+              {
+                "text": "The libraries on both sites provide internet access and have a variety of"
+              },
+              {
+                "id": 21
+              },
+              {
+                "text": "materials on education. The Castle Road library has books on sociology together with"
+              },
+              {
+                "id": 22
+              },
+              {
+                "text": "and other resources relevant to the majority of"
+              },
+              {
+                "id": 23
+              },
+              {
+                "text": "school subjects. The Fordham library includes resources for teaching in"
+              },
+              {
+                "id": 24
+              },
+              {
+                "text": "education and special needs. Current issues of periodicals are available at both libraries although"
+              },
+              {
+                "id": 25
+              },
+              {
+                "text": "issues are only available at Fordham."
+              }
+            ]
+          }
+        },
+        {
+          "type": "short_answer",
+          "instruction": "Answer the questions below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "id": 26,
+              "text": "Which books cannot be renewed by telephone or email?"
+            },
+            {
+              "id": 27,
+              "text": "How much time is allowed to return recalled books?"
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE topics do this term's study skills workshops cover?",
+          "id": 28,
+          "options": [
+            "A. An introduction to the Internet",
+            "B. How to carry out research for a dissertation",
+            "C. Making good use of the whole range of library services",
+            "D. Planning a dissertation",
+            "E. Standard requirements when writing a dissertation",
+            "F. Using the Internet when doing research",
+            "G. What books and technical resources are available in the library"
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Asiatic Lions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 31,
+              "text": "When did Asiatic lions develop as a separate sub-species?",
+              "options": [
+                "A. about 10,000 years ago",
+                "B. about 100,000 years ago",
+                "C. about 1,000,000 years ago"
+              ]
+            },
+            {
+              "id": 32,
+              "text": "Pictures of Asiatic lions can be seen on ancient coins from",
+              "options": ["A. Greece", "B. The Middle East", "C. India"]
+            },
+            {
+              "id": 33,
+              "text": "Asiatic lions disappeared from Europe",
+              "options": [
+                "A. 2,500 years ago",
+                "B. 2,000 years ago",
+                "C. 1,900 years ago"
+              ]
+            },
+            {
+              "id": 34,
+              "text": "Very few African lions have",
+              "options": [
+                "A. a long mane",
+                "B. a coat with varied colours",
+                "C. a fold of skin on their stomach"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "title": "THE GIR SANCTUARY",
+          "questions": [
+            {
+              "id": 35,
+              "text": "The sanctuary has an area of approximately",
+              "suffix": "square kilometers."
+            },
+            {
+              "id": 36,
+              "text": "One threat to the lions in the sanctuary is"
+            },
+            {
+              "id": 37,
+              "text": "The ancestors of the Gir Sanctuary lions were protected by a"
+            },
+            {
+              "id": 38,
+              "text": "A large part of lions'",
+              "suffix": "consists of animals belonging to local farmers."
+            },
+            {
+              "id": 39,
+              "text": "The lions sometimes",
+              "suffix": ", especially when water is short."
+            },
+            {
+              "id": 40,
+              "text": "In ancient India a man would fight a lion as a test of"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

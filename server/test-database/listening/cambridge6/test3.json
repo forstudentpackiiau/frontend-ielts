@@ -1,0 +1,409 @@
+{
+  "id": "cambridge6-listening-test3",
+  "book": "cambridge6",
+  "section": "listening",
+  "title": "IELTS Book 6 Listening Test 3",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-3-Cambridge-6-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "select",
+    "2": "27-1-1973",
+    "3": "15 riverside",
+    "4": "2 weeks",
+    "5": "616295",
+    "6": "engineer",
+    "7": "mother",
+    "8": "2,000",
+    "9": "month",
+    "10": "internet",
+    "11": "C",
+    "12": "A",
+    "13": "C",
+    "14": "H",
+    "15": "F",
+    "16": "B",
+    "17": "D",
+    "18": "field",
+    "19": "footbridge",
+    "20": "viewpoint",
+    "21": "entertainment industry",
+    "22": "telephone interviews",
+    "23": "30",
+    "24": "male and female",
+    "25": "jazz",
+    "26": "classical",
+    "27": "concerts",
+    "28": "department stores",
+    "29": "club",
+    "30": "opera house",
+    "31": "C",
+    "32": "A",
+    "33": "A",
+    "34": "B",
+    "35": "people",
+    "36": ["water", "sand"],
+    "37": "Scotland",
+    "38": "outside",
+    "39": "local",
+    "40": "tops"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "questions": [
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN ONE WORD OR A NUMBER for each answer.",
+          "data": {
+            "title": "OPENING A BANK ACCOUNT",
+            "example": {
+              "text": "Application for a",
+              "answer": "Current"
+            },
+            "items": [
+              {
+                "label": "Type of current account:",
+                "text": "The",
+                "id": 1,
+                "suffix": "account"
+              },
+              {
+                "label": "Full name of applicant:",
+                "text": "Pieter Henes"
+              },
+              {
+                "label": "Date of birth:",
+                "id": 2
+              },
+              {
+                "label": "Joint account holder(s):",
+                "text": "No"
+              },
+              {
+                "label": "Current address:",
+                "id": 3,
+                "suffix": "Exeter"
+              },
+              {
+                "label": "Time at current address:",
+                "id": 4
+              },
+              {
+                "label": "Previous address:",
+                "text": "Rielsdorf 2, Utrecht, Holland"
+              },
+              {
+                "label": "Telephone:",
+                "text": "Work",
+                "id": 5,
+                "suffix": "Home 796431"
+              },
+              {
+                "label": "Occupation:",
+                "id": 6
+              },
+              {
+                "label": "Identity (security):",
+                "text": "Name of his",
+                "id": 7,
+                "suffix": ";Siti"
+              },
+              {
+                "label": "Opening sum:",
+                "id": 8,
+                "prefix": "£"
+              },
+              {
+                "label": "Statement:",
+                "text": "Every",
+                "id": 9
+              },
+              {
+                "label": "Requests:",
+                "text": "Supply information about the bank's",
+                "id": 10,
+                "suffix": "service"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B and C.",
+          "title": "THE HISTORY OF ROSEWOOD HOUSE",
+          "questions": [
+            {
+              "id": 11,
+              "text": "When the writer Sebastian George first saw Rosewood House, he",
+              "options": [
+                "A. thought he might rent it",
+                "B. felt it was too expensive for him",
+                "C. was unsure whether to buy it"
+              ]
+            },
+            {
+              "id": 12,
+              "text": "Before buying the house, George had",
+              "options": [
+                "A. experienced severe family problems",
+                "B. struggled to become a successful author",
+                "C. suffered a serious illness"
+              ]
+            },
+            {
+              "id": 13,
+              "text": "According to the speaker, George viewed Rosewood House as",
+              "options": [
+                "A. a rich source of material for his books",
+                "B. a way to escape from his work",
+                "C. a typical building of the region"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "map_labeling",
+          "instruction": "Label the map below. Write correct letters A-J next to questions 14-17.",
+          "data": {
+            "title": "ROSEWOOD HOUSE AND GARDENS",
+            "image": "https://i0.wp.com/www.ieltsworldly.com/wp-content/uploads/2024/03/ROSEWOOD-HOUSE-AND-GARDENS-Map-IELTS-Cambridge-Book-6-Listening-Test-3.webp",
+            "items": [
+              {
+                "id": 14,
+                "text": "Pear Alley"
+              },
+              {
+                "id": 15,
+                "text": "Mulberry Garden"
+              },
+              {
+                "id": 16,
+                "text": "Shop"
+              },
+              {
+                "id": 17,
+                "text": "Tea Room"
+              }
+            ]
+          }
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write ONE WORD ONLY for each answer.",
+          "title": "RIVER WALK",
+          "questions": [
+            {
+              "id": 18,
+              "text": "You can walk through the",
+              "suffix": "that goes along the river bank."
+            },
+            {
+              "id": 19,
+              "text": "You can go over the",
+              "suffix": "and then into a wooded area."
+            },
+            {
+              "id": 20,
+              "text": "On your way back, you could also go up to the"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "questions": [
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          "title": "MARKETING ASSIGNMENT",
+          "questions": [
+            {
+              "id": 21,
+              "text": "For their assignment, the students must investigate one part of the"
+            },
+            {
+              "id": 22,
+              "text": "The method the students must use to collect data is"
+            },
+            {
+              "id": 23,
+              "text": "In total, the students must interview",
+              "suffix": "people."
+            },
+            {
+              "id": 24,
+              "text": "Jack thinks the music preferences of",
+              "suffix": "listeners are similar."
+            }
+          ]
+        },
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "MARKETING SURVEY: MUSIC PREFERENCES",
+            "sections": [
+              {
+                "title": "Age group of interviewee",
+                "items": ["25 or under", "45 or over"]
+              },
+              {
+                "title": "Music preferences",
+                "items": [
+                  "Pop",
+                  {
+                    "id": 25
+                  },
+                  "Folk",
+                  "Easy listening",
+                  {
+                    "id": 26
+                  }
+                ]
+              },
+              {
+                "title": "Medium for listening to music",
+                "items": [
+                  "Radio",
+                  "CD",
+                  "TV",
+                  {
+                    "id": 27
+                  }
+                ]
+              },
+              {
+                "title": "Source of music",
+                "items": [
+                  "Music shops",
+                  {
+                    "id": 28
+                  },
+                  "Internet"
+                ]
+              },
+              {
+                "title": "Places for listening to music",
+                "items": [
+                  "Disco",
+                  "Pub",
+                  {
+                    "id": 29
+                  },
+                  "Concert Hall",
+                  {
+                    "id": 30
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Ireland in the Neolithic Period",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "data": {
+            "title": "IRELAND IN THE NEOLITHIC PERIOD",
+            "image": "https://i0.wp.com/www.ieltsworldly.com/wp-content/uploads/2024/03/IRELAND-IN-THE-NEOLITHIC-PERIOD-Map-IELTS-Cambridge-Book-6-Listening-Test-3.webp",
+            "questions": [
+              {
+                "id": 31,
+                "text": "According to the speaker, it is not clear",
+                "options": [
+                  "A. when the farming economy was introduced to Ireland",
+                  "B. why people began to farm in Ireland",
+                  "C. where the early Irish farmers came from"
+                ]
+              },
+              {
+                "id": 32,
+                "text": "What point does the speaker make about breeding animals in Neolithic Ireland?",
+                "options": [
+                  "A. Their numbers must have been above a certain level",
+                  "B. They were under threat from wild animals",
+                  "C. Some species died out during this period"
+                ]
+              },
+              {
+                "id": 33,
+                "text": "What does the speaker say about the transportation of animals?",
+                "options": [
+                  "A. Livestock would have limited the distance the farmers could sail",
+                  "B. Neolithic boats were too primitive to have been used",
+                  "C. Probably only a few breeding animals were imported"
+                ]
+              },
+              {
+                "id": 34,
+                "text": "What is the main evidence for cereal crops in Neolithic Ireland?",
+                "options": [
+                  "A. the remains of burnt grain in pots",
+                  "B. the marks left on pots by grains",
+                  "C. the patterns painted on the surface of pots"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
+          "title": "STONE TOOLS",
+          "questions": [
+            {
+              "id": 35,
+              "text": "Ploughs could either have been pulled by",
+              "suffix": "or by cattle."
+            },
+            {
+              "id": 36,
+              "text": "In the final stages of axe-making,",
+              "suffix": "and were necessary for grinding and polishing."
+            },
+            {
+              "id": 37,
+              "text": "Irish axes were exported from Ireland to",
+              "suffix": "and England."
+            }
+          ]
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN TWO WORDS for each answer.",
+          "title": "POTTERY MAKING",
+          "questions": [
+            {
+              "id": 38,
+              "text": "The",
+              "suffix": "of the pots was often polished to make them watertight."
+            },
+            {
+              "id": 39,
+              "text": "Clay from",
+              "suffix": "areas was generally used."
+            },
+            {
+              "id": 40,
+              "text": "Decoration was only put around the",
+              "suffix": "of the earliest pots."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# Vercel Ignore - Files to exclude from deployment
+
+# Development files
+*.md
+!README.md
+.gitignore
+
+# Test files
+test-server-loading.js
+
+# Documentation
+COMPLETE_EXAM_SYSTEM.md
+OPTIONAL_CLEANUP.md
+PERFORMANCE_IMPROVEMENTS.md
+PERFORMANCE_OPTIMIZATION_GUIDE.md
+PERFORMANCE_SUMMARY.md
+PRODUCTION_OPTIMIZATION_SUMMARY.md
+question-types.md
+QUICK_REFERENCE.md
+QUICK_START_GUIDE.md
+QUICK_SUMMARY.md
+READING_COMPONENT_README.md
+READING_QUICK_START.md
+requirements.md
+ROBOTS_TXT_FIX.md
+SECURITY_AUDIT_REPORT.md
+TESTING_GUIDE.md
+DEPLOYMENT_GUIDE.md
+
+# Git
+.git/
+.github/
+
+# Do NOT ignore test-database for server deployment
+# test-database/

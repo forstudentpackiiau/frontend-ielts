@@ -1,0 +1,398 @@
+{
+  "id": "cambridge8-listening-test1",
+  "book": "cambridge8",
+  "section": "listening",
+  "title": "IELTS Book 8 Listening Test 1",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-1-Cambridge-8-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "C",
+    "2": "B",
+    "3": "48 north avenue",
+    "4": "WS62YH",
+    "5": "01674553242",
+    "6": "drinks",
+    "7": "pianist",
+    "8": "10.50",
+    "9": "4",
+    "10": "50%",
+    "11": "1.30",
+    "12": "25 December",
+    "13": "car parking",
+    "14": "45",
+    "15": "tables",
+    "16": ["C", "F", "G"],
+    "17": ["C", "F", "G"],
+    "18": ["C", "F", "G"],
+    "19": ["B", "E"],
+    "20": ["B", "E"],
+    "21": "A",
+    "22": "C",
+    "23": "A",
+    "24": "B",
+    "25": ["B", "C", "F"],
+    "26": ["B", "C", "F"],
+    "27": ["B", "C", "F"],
+    "28": "12,000",
+    "29": "horses",
+    "30": "caves",
+    "31": "surface",
+    "32": "environment",
+    "33": "impact",
+    "34": "urban",
+    "35": "problems",
+    "36": "images",
+    "37": "patterns",
+    "38": "distortions",
+    "39": "traffic",
+    "40": "weather"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Summer Music Festival",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "example": {
+            "text": "In the library George found",
+            "answer": "B",
+            "options": ["A. a book", "B. a brochure", "C. a newspaper"]
+          },
+          "questions": [
+            {
+              "id": 1,
+              "text": "In the lobby of the library George saw",
+              "options": [
+                "A. a group playing music",
+                "B. a display of instruments",
+                "C. a video about the festival"
+              ]
+            },
+            {
+              "id": 2,
+              "text": "George wants to sit at the back so they can",
+              "options": ["A. see well", "B. hear clearly", "C. pay less"]
+            }
+          ]
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "SUMMER MUSIC FESTIVAL BOOKING FORM",
+            "items": [
+              {
+                "label": "NAME:",
+                "text": "George O'Neill"
+              },
+              {
+                "label": "ADDRESS:",
+                "id": 3,
+                "suffix": "Westsea"
+              },
+              {
+                "label": "POSTCODE:",
+                "id": 4
+              },
+              {
+                "label": "TELEPHONE:",
+                "id": 5
+              }
+            ],
+            "table": {
+              "headers": ["Date", "Event", "Price per ticket", "No. of ticket"],
+              "rows": [
+                {
+                  "date": "5 June",
+                  "event": "Instrumental group - Guitarrini",
+                  "price": "£7.50",
+                  "tickets": "2"
+                },
+                {
+                  "date": "17 June",
+                  "event": [
+                    "Singer (price includes",
+                    {
+                      "id": 6
+                    },
+                    "in the garden)"
+                  ],
+                  "price": "£6",
+                  "tickets": "2"
+                },
+                {
+                  "date": "22 June",
+                  "event": [
+                    {
+                      "id": 7
+                    },
+                    "(Anna Ventura)"
+                  ],
+                  "price": "£7.00",
+                  "tickets": "1"
+                },
+                {
+                  "date": "23 June",
+                  "event": "Spanish Dance & Guitar Concert",
+                  "price": {
+                    "id": 8,
+                    "prefix": "£"
+                  },
+                  "tickets": {
+                    "id": 9
+                  }
+                }
+              ]
+            },
+            "note": {
+              "text": "Children / Student / Senior Citizens have",
+              "id": 10,
+              "suffix": "discount on all tickets"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "The Dinosaur Museum",
+      "questions": [
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "The museum closes at",
+              "suffix": "p.m. on Mondays."
+            },
+            {
+              "id": 12,
+              "text": "The museum is not open on"
+            },
+            {
+              "id": 13,
+              "text": "School groups are met by tour guides in the"
+            },
+            {
+              "id": 14,
+              "text": "The whole visit takes 90 minutes, including",
+              "suffix": "minutes for the guided tour."
+            },
+            {
+              "id": 15,
+              "text": "There are",
+              "suffix": "behind the museum where students can have lunch."
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE things can students have with them in the museum?",
+          "id": 16,
+          "options": [
+            "A. food",
+            "B. water",
+            "C. cameras",
+            "D. books",
+            "E. bags",
+            "F. pens",
+            "G. worksheets"
+          ]
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which TWO activities can students do after the tour at present?",
+          "id": 19,
+          "options": [
+            "A. build model dinosaurs",
+            "B. watch films",
+            "C. draw dinosaurs",
+            "D. find dinosaur eggs",
+            "E. play computer games"
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Field Trip Proposal",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 21,
+              "text": "The tutor thinks that Sandra's proposal",
+              "options": [
+                "A. should be re-ordered in some parts",
+                "B. needs a contents page",
+                "C. ought to include more information"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "The proposal would be easier to follow if Sandra",
+              "options": [
+                "A. inserted subheadings",
+                "B. used more paragraphs",
+                "C. shortened her sentences"
+              ]
+            },
+            {
+              "id": 23,
+              "text": "What was the problem with the formatting on Sandra's proposal?",
+              "options": [
+                "A. Separate points were not clearly identified",
+                "B. The headings were not always clear",
+                "C. Page numbering was not used in an appropriate way"
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Sandra became interested in visiting the Navajo National Park through",
+              "options": [
+                "A. articles she read",
+                "B. movies she saw as a child",
+                "C. photographs she found on the internet"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE topics does Sandra agree to include in the proposal?",
+          "id": 25,
+          "options": [
+            "A. climate change",
+            "B. field trip activities",
+            "C. geographical features",
+            "D. impact of tourism",
+            "E. myths and legends",
+            "F. plant and animal life",
+            "G. social history"
+          ]
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write ONE WORD OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "id": 28,
+              "text": "The tribal park covers",
+              "suffix": "hectares."
+            },
+            {
+              "id": 29,
+              "text": "Sandra suggests that they share the",
+              "suffix": "for transport."
+            },
+            {
+              "id": 30,
+              "text": "She says they could also explore the local"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Geography",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "data": {
+            "sections": [
+              {
+                "title": "Studying geography helps us to understand:",
+                "items": [
+                  {
+                    "text": "The effects of different processes on the",
+                    "id": 31,
+                    "suffix": "of the Earth"
+                  },
+                  {
+                    "text": "The dynamic between",
+                    "id": 32,
+                    "suffix": "and population"
+                  }
+                ]
+              },
+              {
+                "title": "Two main branches of study:",
+                "items": [
+                  {
+                    "text": "Physical features"
+                  },
+                  {
+                    "text": "Human lifestyles and their",
+                    "id": 33
+                  }
+                ]
+              },
+              {
+                "title": "Specific study areas:",
+                "items": [
+                  {
+                    "text": "Biophysical, topographic, political, social, economic, historical and",
+                    "id": 34,
+                    "suffix": "geography and also cartography"
+                  }
+                ]
+              },
+              {
+                "title": "Key point:",
+                "items": [
+                  {
+                    "text": "Geography helps us to understand our surroundings and the associated",
+                    "id": 35
+                  }
+                ]
+              },
+              {
+                "title": "What do the geographers do?",
+                "items": [
+                  {
+                    "text": "Find data e.g. conduct censuses, collect information in the form of",
+                    "id": 36,
+                    "suffix": "using computer and satellite technology"
+                  },
+                  {
+                    "text": "Analyse data - identify",
+                    "id": 37,
+                    "suffix": "e.g. cause and effect"
+                  },
+                  {
+                    "text": "Publish findings in the form of:",
+                    "subitems": [
+                      {
+                        "text": "Maps - Easy to carry - Can show physical features of large and small areas - But a two-dimensional map will always have some",
+                        "id": 38
+                      },
+                      {
+                        "text": "Aerial photos - Can show vegetation problems",
+                        "id": 39,
+                        "suffix": "density, ocean, floor etc."
+                      },
+                      {
+                        "text": "Landsat pictures sent to receiving stations - Used for monitoring",
+                        "id": 40,
+                        "suffix": "conditions etc."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

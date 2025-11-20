@@ -1,0 +1,476 @@
+{
+  "id": "cambridge7-listening-test1",
+  "book": "cambridge7",
+  "section": "listening",
+  "title": "IELTS Book 7 Listening Test 1",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-1-Cambridge-7-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "taxi",
+    "2": "city centre",
+    "3": "wait",
+    "4": "door to door",
+    "5": "reserve",
+    "6": "17 of October",
+    "7": "12.30",
+    "8": "Thomson",
+    "9": "AC936",
+    "10": "3303845020456837",
+    "11": "B",
+    "12": "A",
+    "13": "B",
+    "14": "C",
+    "15": "C",
+    "16": "A",
+    "17": "C",
+    "18": "A",
+    "19": "C",
+    "20": "B",
+    "21": "attitudes",
+    "22": "gender",
+    "23": "creativity",
+    "24": "A",
+    "25": "B",
+    "26": "A",
+    "27": "B",
+    "28": "culture",
+    "29": "profits",
+    "30": "stress",
+    "31": "April",
+    "32": "children",
+    "33": "repeated",
+    "34": "human",
+    "35": "magic",
+    "36": "distance",
+    "37": "culture",
+    "38": "fires",
+    "39": "touching",
+    "40": "intact"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Transport from Airport to Milton",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS for each answer.",
+          "data": {
+            "title": "Transport from Airport to Milton",
+            "example": {
+              "text": "Distance:",
+              "answer": "147 miles"
+            },
+            "sections": [
+              {
+                "title": "Options:",
+                "items": [
+                  {
+                    "text": "Car hire"
+                  },
+                  {
+                    "text": "don't want to drive"
+                  },
+                  {
+                    "id": 1
+                  },
+                  {
+                    "text": "expensive"
+                  },
+                  {
+                    "text": "Greyhound Bus"
+                  },
+                  {
+                    "text": "$15 single, $27.50 return"
+                  },
+                  {
+                    "text": "Direct to the",
+                    "id": 2
+                  },
+                  {
+                    "text": "Long",
+                    "id": 3
+                  },
+                  {
+                    "text": "Airport Shuttle"
+                  },
+                  {
+                    "id": 4,
+                    "suffix": "service"
+                  },
+                  {
+                    "text": "Every two hours"
+                  },
+                  {
+                    "text": "$35 single, $65 return"
+                  },
+                  {
+                    "text": "Need to",
+                    "id": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the booking form below. Write ONE WORD OR A NUMBER for each answer.",
+          "data": {
+            "title": "Airport Shuttle Booking Form",
+            "items": [
+              {
+                "label": "To:",
+                "text": "Milton"
+              },
+              {
+                "label": "Date:",
+                "id": 6
+              },
+              {
+                "label": "No. of passengers:",
+                "text": "One"
+              },
+              {
+                "label": "Bus Time:",
+                "id": 7,
+                "suffix": "pm"
+              },
+              {
+                "label": "Type of ticket:",
+                "text": "Single"
+              },
+              {
+                "label": "Name:",
+                "text": "Janet",
+                "id": 8
+              },
+              {
+                "label": "Flight No:",
+                "id": 9
+              },
+              {
+                "label": "From:",
+                "text": "London Heathrow"
+              },
+              {
+                "label": "Address in Milton:",
+                "text": "Vacation Motel, 24, Kitchener Street"
+              },
+              {
+                "label": "Fare:",
+                "text": "$35"
+              },
+              {
+                "label": "Credit card number:",
+                "text": "Visa",
+                "id": 10
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "PS Camping",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "PS Camping has been organising holidays for",
+              "options": ["A. 15 years", "B. 20 years", "C. 25 years"]
+            },
+            {
+              "id": 12,
+              "text": "The company has most camping sites in",
+              "options": ["A. France", "B. Italy", "C. Switzerland"]
+            },
+            {
+              "id": 13,
+              "text": "Which organised activity can children do every day of the week?",
+              "options": ["A. football", "B. drama", "C. model making"]
+            },
+            {
+              "id": 14,
+              "text": "Some areas of the sites have a 'no noise' rule after",
+              "options": ["A. 9.30 p.m", "B. 10.00 p.m", "C. 10.30 p.m"]
+            },
+            {
+              "id": 15,
+              "text": "The holiday insurance that is offered by PS Camping",
+              "options": [
+                "A. can be charged on an annual basis",
+                "B. is included in the price of the holiday",
+                "C. must be taken out at the time of booking"
+              ]
+            },
+            {
+              "id": 16,
+              "text": "Customers who recommend PS Camping to friends will receive",
+              "options": [
+                "A. a free gift",
+                "B. an upgrade to a luxury tent",
+                "C. a discount"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching",
+          "instruction": "What does the speaker say about the following items? Write the correct letter A, B or C next to questions 17-20.",
+          "data": {
+            "options": [
+              "A. They are provided in all tents.",
+              "B. They are found in central areas of the campsite.",
+              "C. They are available on requests."
+            ],
+            "items": [
+              {
+                "id": 17,
+                "text": "barbecues"
+              },
+              {
+                "id": 18,
+                "text": "toys"
+              },
+              {
+                "id": 19,
+                "text": "cool boxes"
+              },
+              {
+                "id": 20,
+                "text": "mops and buckets"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Differences Between Individuals in the Workplace",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "data": {
+            "title": "DIFFERENCES BETWEEN INDIVIDUALS IN THE WORKPLACE",
+            "sections": [
+              {
+                "title": "Individuals bring different:",
+                "items": [
+                  {
+                    "text": "Ideas"
+                  },
+                  {
+                    "id": 21
+                  },
+                  {
+                    "text": "Learning experiences"
+                  }
+                ]
+              },
+              {
+                "title": "Work behavior differences are due to:",
+                "items": [
+                  {
+                    "text": "Personality"
+                  },
+                  {
+                    "id": 22
+                  }
+                ]
+              },
+              {
+                "title": "Effects of diversity on companies:",
+                "items": [
+                  {
+                    "text": "Advantage: diversity develops",
+                    "id": 23
+                  },
+                  {
+                    "text": "Disadvantages: diversity can cause conflict"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 24,
+              "text": "Janice thinks that employers should encourage workers who are",
+              "options": [
+                "A. potential leaders",
+                "B. open to new ideas",
+                "C. good at teamwork"
+              ]
+            },
+            {
+              "id": 25,
+              "text": "Janice suggests that managers may find it difficult to",
+              "options": [
+                "A. form successful groups",
+                "B. balance conflicting needs",
+                "C. deal with uncooperative workers"
+              ]
+            },
+            {
+              "id": 26,
+              "text": "Janice believes employers should look for job applicants who",
+              "options": [
+                "A. can think independently",
+                "B. will obey the system",
+                "C. can solve problems"
+              ]
+            },
+            {
+              "id": 27,
+              "text": "Janice believes managers should",
+              "options": [
+                "A. demonstrate good behavior",
+                "B. encourage co-operation early on",
+                "C. increase financial incentives"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write ONE WORD ONLY for each answer.",
+          "questions": [
+            {
+              "id": 28,
+              "text": "All managers need to understand their employees and recognise their company's"
+            },
+            {
+              "id": 29,
+              "text": "When managing change, increasing the company's",
+              "suffix": "may be more important than employee satisfaction."
+            },
+            {
+              "id": 30,
+              "text": "During periods of change, managers may have to cope with increased amounts of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Seminar on Rock Art",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+          "data": {
+            "title": "SEMINAR ON ROCK ART",
+            "sections": [
+              {
+                "items": [
+                  {
+                    "text": "Preparation for fieldwork trip to Namibia in",
+                    "id": 31
+                  }
+                ]
+              },
+              {
+                "title": "Rock art in Namibia may be",
+                "items": [
+                  {
+                    "text": "Paintings"
+                  },
+                  {
+                    "text": "Engravings"
+                  }
+                ]
+              },
+              {
+                "title": "Earliest explanation of engravings of animal footprints",
+                "items": [
+                  {
+                    "text": "They were used to help",
+                    "id": 32,
+                    "suffix": "learn about tracking"
+                  }
+                ]
+              },
+              {
+                "title": "But:",
+                "items": [
+                  {
+                    "text": "Why are the tracks usually",
+                    "id": 33,
+                    "suffix": "?"
+                  },
+                  {
+                    "text": "Why are some engravings realistic and other realistic?"
+                  },
+                  {
+                    "text": "Why are the unrealistic animals sometimes half",
+                    "id": 34,
+                    "suffix": "?"
+                  }
+                ]
+              },
+              {
+                "title": "More recent explanation:",
+                "items": [
+                  {
+                    "text": "Wise men may have been trying to control wild animals with",
+                    "id": 35
+                  }
+                ]
+              },
+              {
+                "title": "Comments:",
+                "items": [
+                  {
+                    "text": "Earlier explanation was due to scholars over-generalising from their experience of a different culture."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write ONE WORD ONLY for each answer.",
+          "questions": [
+            {
+              "id": 36,
+              "text": "If you look at a site from a",
+              "suffix": ", you reduce visitor pressure."
+            },
+            {
+              "id": 37,
+              "text": "To camp on a site may be disrespectful to people from that"
+            },
+            {
+              "id": 38,
+              "text": "Undiscovered material may be damaged by"
+            },
+            {
+              "id": 39,
+              "text": "You should avoid",
+              "suffix": "or tracing rock art as it is so fragile."
+            },
+            {
+              "id": 40,
+              "text": "In general, your aim is to leave the site"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": "cambridge7-listening-test2",
+  "book": "cambridge7",
+  "section": "listening",
+  "title": "IELTS Book 7 Listening Test 2",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-2-Cambridge-7-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "27 bank road",
+    "2": "730453",
+    "3": "sable",
+    "4": "northern star",
+    "5": "stolen",
+    "6": "Paynter",
+    "7": "brother in law",
+    "8": "to work",
+    "9": "red flag",
+    "10": "1450",
+    "11": "city bridge",
+    "12": "newton",
+    "13": "6.30",
+    "14": "garden",
+    "15": "restaurant",
+    "16": "views",
+    "17": "history",
+    "18": "7 screen",
+    "19": "every 20 minutes",
+    "20": "central station",
+    "21": "B",
+    "22": "A",
+    "23": "C",
+    "24": "B",
+    "25": "A",
+    "26": "B",
+    "27": "1882 to 1883",
+    "28": "signed",
+    "29": ["A", "D"],
+    "30": ["A", "D"],
+    "31": "C",
+    "32": "B",
+    "33": "C",
+    "34": "A",
+    "35": "A",
+    "36": "2 directions",
+    "37": "confident",
+    "38": "vision",
+    "39": "corrections",
+    "40": "balance"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Car Insurance",
+      "questions": [
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "CAR INSURANCE",
+            "example": {
+              "text": "Name:",
+              "answer": "Patrick Jones"
+            },
+            "items": [
+              {
+                "label": "Address:",
+                "id": 1,
+                "suffix": " Greendale"
+              },
+              {
+                "label": "Contact number:",
+                "id": 2
+              },
+              {
+                "label": "Occupation:",
+                "id": 3
+              },
+              {
+                "label": "Size of car engine:",
+                "text": "1200cc"
+              },
+              {
+                "label": "Type of car - Manufacturer:",
+                "text": "Hewton"
+              },
+              {
+                "label": "Type of car - Model:",
+                "id": 4
+              },
+              {
+                "label": "Type of car - Year:",
+                "text": "1997"
+              },
+              {
+                "label": "Previous insurance company:",
+                "id": 5
+              },
+              {
+                "label": "Any insurance claims in the last five year?",
+                "text": "Yes ✓"
+              },
+              {
+                "label": "If yes, give brief details:",
+                "text": "Car was",
+                "id": 6,
+                "suffix": " in 1999"
+              },
+              {
+                "label": "Name(s) of other driver(s):",
+                "text": "Simon",
+                "id": 7
+              },
+              {
+                "label": "Relationship to main driver:",
+                "id": 8
+              },
+              {
+                "label": "Uses of car:",
+                "text": "Social and",
+                "id": 9
+              },
+              {
+                "label": "Start date:",
+                "text": "31st January"
+              },
+              {
+                "label": "Recommended insurance - Name of company:",
+                "id": 9
+              },
+              {
+                "label": "Recommended insurance - Annual Cost:",
+                "prefix": "$",
+                "id": 10
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Boat Trip",
+      "questions": [
+        {
+          "type": "map_labeling",
+          "instruction": "Label the map below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Boat Trip",
+            "image": "https://i0.wp.com/www.ieltsworldly.com/wp-content/uploads/2024/03/Map-IELTS-Cambridge-Book-7-Listening-Test-2.webp",
+            "items": [
+              {
+                "id": 11
+              },
+              {
+                "id": 12
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "data": {
+            "headers": ["", "Attraction", "Further information"],
+            "rows": [
+              {
+                "cells": [
+                  [
+                    "STOP A:",
+                    "<br>",
+                    "Main booking office",
+                    "<br>",
+                    "First boat: 8 am",
+                    "<br>",
+                    "Last boat:",
+                    {
+                      "id": 13,
+                      "suffix": " pm"
+                    }
+                  ],
+                  "Palace",
+                  [
+                    "has lovely",
+                    {
+                      "id": 14
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  "STOP B:",
+                  {
+                    "id": 15
+                  },
+                  [
+                    "has good",
+                    {
+                      "id": 16,
+                      "suffix": " of city centre"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  "STOP C:",
+                  "Museum",
+                  [
+                    "bookshop specializing in the",
+                    {
+                      "id": 17,
+                      "suffix": " of the local area"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  "STOP D:",
+                  "Entertainment Complex",
+                  [
+                    {
+                      "id": 18,
+                      "suffix": " cinema"
+                    },
+                    "<br>",
+                    "bowling alley",
+                    "<br>",
+                    "video games arcade"
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "short_answer",
+          "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "questions": [
+            {
+              "id": 19,
+              "text": "How often do the Top Bus Company tours run?"
+            },
+            {
+              "id": 20,
+              "text": "Where can you catch a Number One Sightseeing Tour from?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Antarctic Centre",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 21,
+              "text": "The Antarctic Centre was established in Christchurch because",
+              "options": [
+                "A. New Zealand is a member of the Antarctic Treaty",
+                "B. Christchurch is geographically well positioned",
+                "C. the climate of Christchurch is suitable"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "One role of the Antarctic Centre is to",
+              "options": [
+                "A. provide expeditions with suitable equipment",
+                "B. provide researchers with financial assistance",
+                "C. ensure that research is internationally relevant"
+              ]
+            },
+            {
+              "id": 23,
+              "text": "The purpose of the Visitors' Centre is to",
+              "options": [
+                "A. provide accommodation",
+                "B. run training sessions",
+                "C. show people what Antarctica is like"
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Dr Merrywhether says that Antarctica is",
+              "options": [
+                "A. unlike any other country",
+                "B. extremely beautiful",
+                "C. too cold for tourists"
+              ]
+            },
+            {
+              "id": 25,
+              "text": "According to Dr Merrywhether, Antarctica is very cold because",
+              "options": [
+                "A. of the shape of the continent",
+                "B. it is surrounded by a frozen sea",
+                "C. it is an extremely dry continent"
+              ]
+            },
+            {
+              "id": 26,
+              "text": "Dr Merrywhether thinks Antarctica was part of another continent because",
+              "options": [
+                "A. he has done his own research in the area",
+                "B. there is geological evidence of this",
+                "C. it is very close to South America"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write ONE WORD OR TWO NUMBERS for each answer.",
+          "data": {
+            "title": "ANTARCTIC TREATY",
+            "headers": ["Date", "Event"],
+            "rows": [
+              {
+                "cells": ["1870", "Polar search meeting"]
+              },
+              {
+                "cells": [
+                  {
+                    "id": 27
+                  },
+                  "1st international polar year"
+                ]
+              },
+              {
+                "cells": ["1957", "Antarctic treaty was proposed"]
+              },
+              {
+                "cells": [
+                  "1959",
+                  [
+                    "Antarctic treaty was",
+                    {
+                      "id": 28
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+          "id": 29,
+          "options": [
+            "A. no military use",
+            "B. animals protected",
+            "C. historic sites reserved",
+            "D. no nuclear testing",
+            "E. fishing rites protected"
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Left and Right Handedness in Sport",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 31,
+              "text": "Anita first felt the Matthews article was of value when she realised",
+              "options": [
+                "A. how it would help her difficulties with left-handedness",
+                "B. the relevance of connections he made with music",
+                "C. the impressive size of his research project"
+              ]
+            },
+            {
+              "id": 32,
+              "text": "Anita feels that the findings on handedness will be of value in",
+              "options": [
+                "A. helping sportspeople identify their weaknesses",
+                "B. aiding sportspeople as they plan tactics for each game",
+                "C. developing suitable training programmes for sportspeople"
+              ]
+            },
+            {
+              "id": 33,
+              "text": "Anita feels that most sports coaches",
+              "options": [
+                "A. know nothing about the influence of handedness",
+                "B. focus on the wrong aspects of performance",
+                "C. underestimate what science has to offer sport"
+              ]
+            },
+            {
+              "id": 34,
+              "text": "A German study showed there was greater 'mixed handedness' in musicians who",
+              "options": [
+                "A. started playing instruments in early youth",
+                "B. play a string instrument such as the violin",
+                "C. practise a great deal on their instrument"
+              ]
+            },
+            {
+              "id": 35,
+              "text": "Studies on ape behaviour show that",
+              "options": [
+                "A. apes which always use the same hand to get food are most successful",
+                "B. apes have the same proportion of left- and right-handers as humans",
+                "C. more apes are left-handed than right-handed"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS OR A NUMBER for each answer.",
+          "data": {
+            "headers": ["Sport", "Best Laterality", "Comments"],
+            "rows": [
+              {
+                "sport": "Hockey",
+                "laterality": "mixed laterality",
+                "comments": [
+                  "hockey stick has to be used in",
+                  {
+                    "id": 36
+                  },
+                  "mixed-handed players found to be much more",
+                  {
+                    "id": 37,
+                    "suffix": "than others"
+                  }
+                ]
+              },
+              {
+                "sport": "Tennis",
+                "laterality": "single laterality",
+                "comments": [
+                  "gives a larger relevant field of",
+                  {
+                    "id": 38
+                  },
+                  "cross lateral players make",
+                  {
+                    "id": 39,
+                    "suffix": "too late"
+                  }
+                ]
+              },
+              {
+                "sport": "Gymnastics",
+                "laterality": "cross laterality",
+                "comments": [
+                  "gymnasts'",
+                  {
+                    "id": 40,
+                    "suffix": "is important for performances"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

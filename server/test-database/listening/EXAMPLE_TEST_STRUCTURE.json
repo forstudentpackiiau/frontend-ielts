@@ -1,0 +1,417 @@
+{
+  "id": "example-test",
+  "book": "example",
+  "section": "listening",
+  "title": "IELTS Example Test - All Question Types",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://example.com/audio.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "single answer",
+    "2": ["array", "answer"],
+    "3": "another single",
+    "4": "text",
+    "5": "A",
+    "6": ["B", "C", "D"]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Part Title (Optional - can be omitted)",
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Notes Title (Optional)",
+            "items": [
+              {
+                "label": "Label text",
+                "text": "Some text before",
+                "id": 1,
+                "suffix": "text after"
+              },
+              {
+                "text": "Text with",
+                "id": 2,
+                "suffix": "suffix"
+              },
+              {
+                "label": "Another",
+                "id": 3
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN THREE WORDS for each answer.",
+          "data": {
+            "title": "Table Title (Optional)",
+            "comment": "FORMAT 1: Rows without headers - like Part 1 test1",
+            "rows": [
+              {
+                "label": "Row Label:",
+                "items": [
+                  {
+                    "text": "Static text",
+                    "static": true
+                  },
+                  {
+                    "id": 4,
+                    "placeholder": ""
+                  },
+                  {
+                    "id": 5,
+                    "placeholder": "",
+                    "note": "(optional note)"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below.",
+          "data": {
+            "title": "Table with Headers",
+            "comment": "FORMAT 2: Table with headers and cells array",
+            "headers": ["Column 1", "Column 2", "Column 3"],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "Static cell"
+                  },
+                  {
+                    "id": 6,
+                    "prefix": "£"
+                  },
+                  {
+                    "id": 7,
+                    "suffix": "pm"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "Another row"
+                  },
+                  {
+                    "composite": true,
+                    "items": [
+                      {
+                        "text": "from"
+                      },
+                      {
+                        "id": 8,
+                        "sub_id": "start"
+                      },
+                      {
+                        "text": "to"
+                      },
+                      {
+                        "id": 8,
+                        "sub_id": "end"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Static"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below.",
+          "data": {
+            "comment": "FORMAT 3: Table with period/situation format (Part 4 style)",
+            "headers": ["Period", "Situation"],
+            "rows": [
+              {
+                "period": "1st century",
+                "situation": "text before",
+                "id": 9,
+                "suffix": "text after"
+              },
+              {
+                "period": "2nd century",
+                "situation": "another",
+                "id": 10
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below.",
+          "data": {
+            "comment": "FORMAT 4: Table with custom properties (Part 3 style)",
+            "headers": ["Target", "Work Completed", "Action"],
+            "rows": [
+              {
+                "target": "Target text",
+                "work_completed": [
+                  "text",
+                  {
+                    "id": 11
+                  }
+                ],
+                "action": {
+                  "id": 12
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write ONE WORD ONLY for each answer.",
+          "title": "Optional Title (rendered after instruction)",
+          "questions": [
+            {
+              "id": 13,
+              "text": "This is the sentence text before the blank"
+            },
+            {
+              "id": 14,
+              "text": "Another sentence",
+              "suffix": "with text after"
+            },
+            {
+              "id": 15,
+              "text": "Sentence with note",
+              "note": "(optional note)"
+            }
+          ]
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the table below.",
+          "data": {
+            "comment": "FORMAT 1: Fields format - renders as 5-column table (Part 2 test1)",
+            "title": "Play: Royal Hunt of the Sun",
+            "fields": [
+              {
+                "label": "Dates",
+                "id": 17,
+                "prefix": "October 13 to"
+              },
+              {
+                "label": "Starting time",
+                "id": 18,
+                "suffix": "pm"
+              },
+              {
+                "label": "Tickets available for",
+                "id": 19,
+                "comment": "If answer in testData.answers is array, renders as: for [input] and [input]"
+              },
+              {
+                "label": "Price",
+                "id": 20,
+                "prefix": "£"
+              }
+            ]
+          }
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the table below.",
+          "data": {
+            "comment": "FORMAT 2: Items format - renders as 2-column table (Part 3 test1)",
+            "title": "Optional Title",
+            "items": [
+              {
+                "label": "Facility Name",
+                "text": "inform them",
+                "id": 22,
+                "suffix": "about requirements"
+              },
+              {
+                "label": "",
+                "text": "text here",
+                "id": 23,
+                "comment": "Empty label renders input in left column"
+              },
+              {
+                "label": "Another Facility",
+                "text": "reduced",
+                "id": 24,
+                "suffix": "for students"
+              }
+            ]
+          }
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below.",
+          "data": {
+            "comment": "FORMAT 3: Rows format with type/details (test2 style)",
+            "headers": ["Type", "Details"],
+            "rows": [
+              {
+                "type": "Type text",
+                "details": [
+                  "Details: ",
+                  {
+                    "id": 25
+                  },
+                  " more text"
+                ]
+              },
+              {
+                "type": {
+                  "id": 26
+                },
+                "details": "Details text"
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "comment": "FORMAT 1: Single question",
+          "id": 27,
+          "text": "What is the question?",
+          "options": ["A. First option", "B. Second option", "C. Third option"]
+        },
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter, A-D.",
+          "title": "Optional Title (Part 4 test2 style)",
+          "comment": "FORMAT 2: Multiple questions array",
+          "questions": [
+            {
+              "id": 28,
+              "text": "First question?",
+              "options": [
+                "A. Option 1",
+                "B. Option 2",
+                "C. Option 3",
+                "D. Option 4"
+              ]
+            },
+            {
+              "id": 29,
+              "text": "Second question?",
+              "options": [
+                "A. Option 1",
+                "B. Option 2",
+                "C. Option 3",
+                "D. Option 4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE of the following are mentioned?",
+          "comment": "Detects 'THREE' in instruction and shows range like 'Questions 30-32'",
+          "id": 30,
+          "options": [
+            "A. First option",
+            "B. Second option",
+            "C. Third option",
+            "D. Fourth option",
+            "E. Fifth option",
+            "F. Sixth option"
+          ]
+        },
+        {
+          "type": "matching",
+          "instruction": "Match the items. Choose the correct letter, A-F.",
+          "data": {
+            "title": "Optional Title",
+            "items": [
+              {
+                "id": 33,
+                "text": "First item"
+              },
+              {
+                "id": 34,
+                "text": "Second item"
+              },
+              {
+                "id": 35,
+                "text": "Third item"
+              }
+            ],
+            "options": [
+              "A. Option 1",
+              "B. Option 2",
+              "C. Option 3",
+              "D. Option 4",
+              "E. Option 5",
+              "F. Option 6"
+            ]
+          }
+        },
+        {
+          "type": "summary_completion",
+          "instruction": "Complete the summary below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Summary Title",
+            "text": "This is the summary text with gaps. The first gap is [36] and the second gap is [37]. You can have multiple gaps [38] in the text.",
+            "gaps": [
+              {
+                "id": 36
+              },
+              {
+                "id": 37
+              },
+              {
+                "id": 38
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "DOCUMENTATION": {
+    "question_types": [
+      "notes_completion",
+      "table_completion",
+      "sentence_completion",
+      "form_completion",
+      "multiple_choice",
+      "multiple_choice_multiple",
+      "matching",
+      "summary_completion"
+    ],
+    "answer_formats": {
+      "single": "Simple string like 'answer'",
+      "array": "Array like ['Monday', 'Thursday'] for questions with multiple inputs",
+      "letter": "Single letter like 'A' for multiple choice",
+      "letter_array": "Array like ['A', 'C', 'E'] for multiple choice multiple"
+    },
+    "common_properties": {
+      "id": "Question number (integer)",
+      "text": "Text content",
+      "prefix": "Text before input field",
+      "suffix": "Text after input field",
+      "label": "Label for the item/row",
+      "placeholder": "Placeholder text for input",
+      "note": "Additional note in gray text",
+      "static": "Boolean - if true, text is shown in gray as example"
+    },
+    "title_rendering": {
+      "part.title": "Shows as 'PART X' header (optional)",
+      "question.title": "Shows after instruction (sentence_completion, multiple_choice)",
+      "question.data.title": "Shows after instruction (table_completion, form_completion, etc)"
+    },
+    "dynamic_features": {
+      "input_width": "Automatically calculated based on answer length (96px-384px)",
+      "array_detection": "Checks testData.answers to determine if input should be array",
+      "question_range": "Automatically calculated from question ids in each block"
+    }
+  }
+}

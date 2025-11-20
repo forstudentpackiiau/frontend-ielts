@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn-primary {
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  }
+  .btn-primary:hover {
+    background-color: #1d4ed8;
+  }
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-radius: 0.25rem;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  }
+  .btn-secondary:hover {
+    background-color: #d1d5db;
+  }
+
+  .btn-danger {
+    padding: 0.5rem 1rem;
+    background-color: #dc2626;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    transition: background-color 150ms ease-in-out, color 150ms ease-in-out;
+  }
+  .btn-danger:hover {
+    background-color: #b91c1c;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d1d5db;
+    border-radius: 0.25rem;
+  }
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+    border-color: transparent;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+  }
+  input {
+    width: 140px;
+  }
+}
+
+/* Reading passage styling */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: #1f2937;
+}
+
+.prose h1 {
+  font-size: 2rem;
+}
+
+.prose h2 {
+  font-size: 1.75rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+}
+
+.prose h4 {
+  font-size: 1.25rem;
+}
+
+.prose h5 {
+  font-size: 1.125rem;
+}
+
+.prose h6 {
+  font-size: 1rem;
+}
+
+.prose center {
+  display: block;
+  text-align: center;
+}

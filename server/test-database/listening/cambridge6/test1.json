@@ -1,0 +1,514 @@
+{
+  "id": "cambridge6-listening-test1",
+  "book": "cambridge6",
+  "section": "listening",
+  "title": "IELTS Book 6 Listening Test 1",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-1-Cambridge-6-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "keep-fit",
+    "2": "swimming",
+    "3": "yoga",
+    "4": "salad bar",
+    "5": "500",
+    "6": "1",
+    "7": ["10", "4.30"],
+    "8": "180",
+    "9": "assessment",
+    "10": "Kynchley",
+    "11": "B",
+    "12": "G",
+    "13": "C",
+    "14": "A",
+    "15": "E",
+    "16": "D",
+    "17": "October 19",
+    "18": "7",
+    "19": ["Monday", "Thursday"],
+    "20": "18",
+    "21": "A",
+    "22": "in advance",
+    "23": "nursery",
+    "24": "annual fee",
+    "25": "tutor",
+    "26": "laptops",
+    "27": "printers",
+    "28": "report writing",
+    "29": "marketing",
+    "30": "individual",
+    "31": "feed",
+    "32": ["metal", "leather"],
+    "33": "restrictions",
+    "34": "ships",
+    "35": "England",
+    "36": "built",
+    "37": "poverty",
+    "38": ["C", "E", "F"]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Notes on Sports Club",
+      "questions": [
+        {
+          "type": "table_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN THREE WORDS for each answer.",
+          "data": {
+            "title": "NOTES ON SPORTS CLUB",
+            "headers": ["", ""],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "Facilities available:",
+                    "rowspan": 3
+                  },
+                  {
+                    "text": "Golf"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  null,
+                  {
+                    "id": 1
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  null,
+                  {
+                    "id": 2
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "Classes available:",
+                    "rowspan": 2
+                  },
+                  {
+                    "text": "Kick-boxing"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  null,
+                  {
+                    "id": 3
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "Additional facility:",
+                    "rowspan": 2
+                  },
+                  {
+                    "id": 4
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  null,
+                  {
+                    "text": "(restaurant opening soon)"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO NUMBERS for each answer.",
+          "data": {
+            "title": "Membership Schemes",
+            "headers": [
+              "Type",
+              "Use of facilities",
+              "Cost of classes",
+              "Times",
+              "Joining fees",
+              "Annual subscription fee"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "GOLD"
+                  },
+                  {
+                    "text": "All"
+                  },
+                  {
+                    "text": "Free"
+                  },
+                  {
+                    "text": "Any time"
+                  },
+                  {
+                    "text": "£250"
+                  },
+                  {
+                    "id": 5,
+                    "prefix": "£"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "SILVER"
+                  },
+                  {
+                    "text": "All"
+                  },
+                  {
+                    "id": 6,
+                    "prefix": "£"
+                  },
+                  {
+                    "composite": true,
+                    "items": [
+                      {
+                        "text": "from"
+                      },
+                      {
+                        "id": 7,
+                        "sub_id": "start"
+                      },
+                      {
+                        "text": "to"
+                      },
+                      {
+                        "id": 7,
+                        "sub_id": "end"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "£225"
+                  },
+                  {
+                    "text": "£300"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "BRONZE"
+                  },
+                  {
+                    "text": "Restricted"
+                  },
+                  {
+                    "text": "£3"
+                  },
+                  {
+                    "text": "from 10.30 to 3.30 weekdays only"
+                  },
+                  {
+                    "text": "£50"
+                  },
+                  {
+                    "id": 8,
+                    "prefix": "£"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Write ONE WORD ONLY for each answer.",
+          "questions": [
+            {
+              "id": 9,
+              "text": "To join the centre, you need to book an instructor's"
+            },
+            {
+              "id": 10,
+              "text": "To book a trial session, speak to David",
+              "note": "(0458 95311)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Rivenden City Theatre",
+      "questions": [
+        {
+          "type": "matching",
+          "instruction": "What change has been made to each part of the theatre? Choose the correct letter, A–G.",
+          "data": {
+            "items": [
+              {
+                "id": 11,
+                "text": "box office"
+              },
+              {
+                "id": 12,
+                "text": "shop"
+              },
+              {
+                "id": 13,
+                "text": "ordinary seats"
+              },
+              {
+                "id": 14,
+                "text": "seats for wheelchair users"
+              },
+              {
+                "id": 15,
+                "text": "lifts"
+              },
+              {
+                "id": 16,
+                "text": "dressing room"
+              }
+            ],
+            "options": [
+              "A. doubled in number",
+              "B. given separate entrance",
+              "C. reduced in number",
+              "D. increased in size",
+              "E. replaced",
+              "F. strengthened",
+              "G. temporarily closed"
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "data": {
+            "headers": [
+              "Play...",
+              "Dates",
+              "Starting time",
+              "Tickets available for",
+              "Price"
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "The Royal Hunt of the Sun"
+                  },
+                  {
+                    "id": 17,
+                    "prefix": "October 13 to"
+                  },
+                  {
+                    "id": 18,
+                    "suffix": "pm"
+                  },
+                  {
+                    "composite": true,
+                    "items": [
+                      {
+                        "text": "for"
+                      },
+                      {
+                        "id": 19,
+                        "sub_id": "start"
+                      },
+                      {
+                        "text": "and"
+                      },
+                      {
+                        "id": 19,
+                        "sub_id": "end"
+                      }
+                    ]
+                  },
+                  {
+                    "id": 20,
+                    "prefix": "£"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "College & Business Centre",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter, A, B or C.",
+          "questions": [
+            {
+              "id": 21,
+              "text": "What is Brian going to do before the course starts?",
+              "options": [
+                "A. attend a class",
+                "B. write a report",
+                "C. read a book"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "items": [
+              {
+                "label": "Refectory",
+                "text": "inform them",
+                "id": 22,
+                "suffix": "about special dietary requirements"
+              },
+              {
+                "label": "",
+                "text": "long waiting list, apply now",
+                "id": 23
+              },
+              {
+                "label": "Fitness centre",
+                "text": "reduced",
+                "id": 24,
+                "suffix": "for students"
+              },
+              {
+                "label": "Computers",
+                "text": "ask your",
+                "id": 25,
+                "suffix": "to arrange password"
+              }
+            ]
+          }
+        },
+        {
+          "type": "summary_completion",
+          "instruction": "Complete the summary below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Business Centre",
+            "items": [
+              {
+                "text": "This Business Resource Centre contains materials such as books and manuals to be used for training. It is possible to hire"
+              },
+              {
+                "id": 26
+              },
+              {
+                "text": "and"
+              },
+              {
+                "id": 27
+              },
+              {
+                "text": ". There are materials for working on study skills (e.g."
+              },
+              {
+                "id": 28
+              },
+              {
+                "text": ") and other subjects include finance and"
+              },
+              {
+                "id": 29
+              },
+              {
+                "text": "."
+              },
+              {
+                "id": 30
+              },
+              {
+                "text": "membership costs £50 per year."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Social History of the East End of London",
+      "questions": [
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "headers": ["Period", "Situation"],
+            "rows": [
+              {
+                "period": "1st–4th centuries",
+                "situation": "produce from the area was used to",
+                "id": 31,
+                "suffix": "the people of London"
+              },
+              {
+                "period": "5th–10th centuries",
+                "situation": "New technology allowed production of goods made of",
+                "id": 32,
+                "suffix": "and leather"
+              },
+              {
+                "period": "11th century",
+                "situation": "Lack of",
+                "id": 33,
+                "suffix": "in the East End encouraged business growth"
+              },
+              {
+                "period": "16th century",
+                "situation": "construction of facilities for building",
+                "id": 34,
+                "suffix": "stimulated international trade"
+              },
+              {
+                "period": "16th century",
+                "situation": "agricultural workers came from other parts of",
+                "id": 35
+              },
+              {
+                "period": "17th century",
+                "situation": "Marshes were drained to provide land that could be",
+                "id": 36,
+                "suffix": "on"
+              },
+              {
+                "period": "19th century",
+                "situation": "inhabitants lived in conditions of great",
+                "id": 37,
+                "suffix": "with poor sanitation"
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE of the following problems are mentioned in connection with 20th century housing?",
+          "id": 38,
+          "options": [
+            "A. unsympathetic landlords",
+            "B. unclean water",
+            "C. heating problems",
+            "D. high rents",
+            "E. overcrowding",
+            "F. poor standards of building",
+            "G. houses catching fire"
+          ]
+        }
+      ]
+    }
+  ]
+}

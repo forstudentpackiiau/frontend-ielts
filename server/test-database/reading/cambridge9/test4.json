@@ -1,0 +1,326 @@
+{
+  "id": "reading-cambridge9-test4",
+  "title": "Cambridge 9 Reading Test 4",
+  "section": "reading",
+  "total_questions": 40,
+  "duration": 3600,
+  "passages": [
+    {
+      "id": "passage-1",
+      "title": "The life and work of Marie Curie",
+      "text": "<h3>The life and work of Marie Curie</h3><p>Marie Curie is probably the most famous woman scientist who has ever lived. Born Maria Sklodowska in Poland in 1867, she is famous for her work on radioactivity, and was twice a winner of the Nobel Prize. With her husband, Pierre Curie, and Henri Becquerel, she was awarded the 1903 Nobel Prize for Physics, and was then sole winner of the 1911 Nobel Prize for Chemistry. She was the first woman to win a Nobel Prize.</p><p>From childhood, Marie was remarkable for her prodigious memory, and at the age of 16 won a gold medal on completion of her secondary education. Because her father lost his savings through bad investment, she then had to take work as a teacher. From her earnings she was able to finance her sister Bronia's medical studies in Paris, on the understanding that Bronia would, in turn, later help her to get an education.</p><p>In 1891 this promise was fulfilled and Marie went to Paris and began to study at the Sorbonne (the University of Paris). She often worked far into the night and lived on little more than bread and butter and tea. She came first in the examination in the physical sciences in 1893, and in 1894 was placed second in the examination in mathematical sciences. It was not until the spring of that year that she was introduced to Pierre Curie.</p><p>Their marriage in 1895 marked the start of a partnership that was soon to achieve results of world significance. Following Henry Becquerel's discovery in 1896 of a new phenomenon, which Marie later called 'radioactivity'. Marie Curie decided to find out if the radioactivity discovered in uranium was to be found in other elements. She discovered that this was true for thorium.</p><p>Turning her attention to minerals, she found her interest drawn to pitchblende, a mineral whose radioactivity, superior to that of pure uranium, could be explained only by the presence in the ore of small quantities of an unknown substance of very high activity. Pierre Curie joined her in the work that she had undertaken to resolve this problem, and that led to the discovery of the new elements, polonium and radium. While Pierre Curie devoted himself chiefly to the physical study of the new radiations, Marie Curie struggled to obtain pure radium in the metallic state. This was achieved with the help of the chemist André-Louis Debierne, one of Pierre Curie's pupils. Based on the results of this research, Marie Curie received her Doctorate of Science, and in 1903 Marie and Pierre shared with Becquerel the Nobel Prize for Physics for the discovery of radioactivity.</p><p>The births of Marie's two daughters, Irène and Eve, in 1897 and 1904 failed to interrupt her scientific work. She was appointed lecturer in physics at the École Normale Supérieure for girls in Sèrves, France (1900), and introduced a method of teaching based on experimental demonstrations. In December 1904 she was appointed chief assistant in the laboratory directed by Pierre Curie.</p><p>The sudden death of her husband in 1906 was a bitter blow to Marie Curie, but was also a turning point in her career: henceforth she was to devote all her energy to completing alone the scientific work that they had undertaken. On May 13,1906, she was appointed to the professorship that had been left vacant on her husband's death, becoming the first woman to teach at the Sorbonne. In 1911 she was awarded the Nobel Prize for Chemistry for the isolation of a pure form of radium.</p><p>During World War I, Marie Curie, with the help of her daughter Irène devoted herself to the development of the use of X-radiography, including the mobile units which came to be known as 'little curies', used for the treatment of wounded soldiers. In 1918 the Radium Institute, whose staff Irène had joined, began to operate in earnest, and became a center for nuclear physics and chemistry. Marie Curie, now at the highest point of her fame and, from 1922, a member of the Academy of Medicine, researched the chemistry of radioactive substances and their medical applications.</p><p>In 1921, accompanied by her two daughters, Marie Curie made a triumphant journey to the United States to raise funds for research on radium. Women there presented her with a gram of radium for her campaign. Marie also gave lectures in Belgium, Brazil, Spain and Czechoslovakia and, in addition, had the satisfaction of seeing the development of the Curie Foundation in Paris, and the inauguration in 1932 in Warsaw of the Radium Institute, where her sister Bronia became director.</p><p>One of Marie Curie's outstanding achievements was to have understood the need to accumulate intense radioactive sources, not only to treat illness but also to maintain an abundant supply for research. The existence in Pairs at the Radium Institute of a stock of 1.5 grams of radium made a decisive contribution to the success of the experiments undertaken in the years around 1930. This work prepared the way for the discovery of the neutron by Sir James Chadwick and, above all, for the discovery in 1934 by Irène and Frédéric Joliot-Curie of artificial radioactivity. A few months after this discovery, Marie Curie died as a result of leukaemia caused by exposure to radiation. She had often carried test tubes containing radioactive isotopes in her pocket, remarking on the pretty blue-green light they gave off.</p><p>Her contribution to physics had been immense, not only in her own work, the importance of which had been demonstrated by her two Nobel Prizes, but because of her influence on subsequent generations of nuclear physicists and chemists.</p>",
+      "questions": {
+        "true-false-notgiven-1": {
+          "type": "True/False/Not Given",
+          "instructions": "<p><i>Questions 1-6</i></p><p>Do the following statements agree with the information given in Reading Passage 1?</p><p>In boxes <b>1-6</b> on your answer sheet, choose</p><p><b>TRUE</b> if the statement agrees with the information<br/><b>FALSE</b> if the statement contradicts the information<br/><b>NOT GIVEN</b> if there is no information on this</p>",
+          "items": [
+            {
+              "number": 1,
+              "statement": "Marie Curie's husband was a joint winner of both Marie's Nobel Prizes."
+            },
+            {
+              "number": 2,
+              "statement": "Marie became interested in science when she was a child."
+            },
+            {
+              "number": 3,
+              "statement": "Marie was able to attend the Sorbonne because of her sister's financial contribution."
+            },
+            {
+              "number": 4,
+              "statement": "Marie stopped doing research for several years when her children were born."
+            },
+            {
+              "number": 5,
+              "statement": "Marie took over the teaching position her husband had held."
+            },
+            {
+              "number": 6,
+              "statement": "Marie's sister Bronia studied the medical uses of radioactivity."
+            }
+          ]
+        },
+        "note-completion-1": {
+          "type": "Sentence Completion",
+          "instructions": "<p><i>Questions 7-13</i></p><p>Complete the notes below.</p><p>Choose <b>ONE WORD</b> from the passage for each answer.</p><p>Write your answers in boxes <b>7-13</b> on your answer sheet.</p><p><b>Marie Curie's research on radioactivity</b></p>",
+          "items": [
+            {
+              "number": 7,
+              "sentence": "When uranium was discovered to be radioactive, Marie Curie found that the element called [7] had the same property."
+            },
+            {
+              "number": 8,
+              "sentence": "Marie and Pierre Curie's research into the radioactivity of the mineral known as [8] led to the discovery of two new elements."
+            },
+            {
+              "number": 9,
+              "sentence": "In 1911, Marie Curie received recognition for her work on the element [9]."
+            },
+            {
+              "number": 10,
+              "sentence": "Marie and Irène Curie developed X-radiography which was used as a medical technique for [10]."
+            },
+            {
+              "number": 11,
+              "sentence": "Marie Curie saw the importance of collecting radioactive material both for research and for cases of [11]."
+            },
+            {
+              "number": 12,
+              "sentence": "The radioactive material stocked in Paris contributed to the discoveries in the 1930s of the [12] and of what was known as artificial radioactivity."
+            },
+            {
+              "number": 13,
+              "sentence": "During her research, Marie Curie was exposed to radiation and as a result she suffered from [13]."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "passage-2",
+      "title": "Young children's sense of identity",
+      "text": "<h3>Young children's sense of identity</h3><p>A</p><p>A sense of self develops in young children by degrees. The process can usefully be thought of in terms of the gradual emergence of two somewhat separate features: the self as a subject, and the self as an object. William James introduced the distinction in 1892, and contemporaries of his, such as Charles Cooley, added to the developing debate. Ever since then psychologists have continued building on the theory.</p><p>B</p><p>According to James, a child's first step on the road to self-understanding can be seen as the recognition that he or she exists. This is an aspect of the self that he labelled 'self-as-subject', and he gave it various elements. These included an awareness of one's own agency (i.e. one's power to act), and an awareness of one's distinctiveness from other people. These features gradually emerge as infants explore their world and interact with caregivers. Cooley (1902) suggested that a sense of the self-as-subject was primarily concerned with being able to exercise power. He proposed that the earliest examples of this are an infant's attempts to control physical objects, such as toys or his or her own limbs. This is followed by attempts to affect the behavior of other people. For example, infants learn that when they cry or smile someone responds to them.</p><p>C</p><p>Another powerful source of information for infants about the effects they can have on the world around them is provided when other mimic them. Many parents spend a lot of time, particularly in the early months, copying their infant's vocalizations and expressions. In addition, young children enjoy looking in mirrors, where the movements they can see are dependent upon their own movements. This is not to say that infants recognize the reflection as their own image (a later development). However, Lewis and Brooks-Gunn (1979) suggest that infants' developing understanding that the movements they see in the mirror are contingent on their own, leads to a growing awareness that they are distinct from other people. This is because they, and only they, can change the reflection in the mirror.</p><p>D</p><p>This understanding that children gain of themselves as active agents continues to develop in their attempts to co-operate with others in play. Dunn (1988) points out that it is in such day-to-day relationships and interactions that the child's understanding of his- or herself emerges. Empirical investigations of the self-as-subject in young children are, however, rather scarce because of difficulties of communication: even if young infants can reflect on their experience, they certainly cannot express this aspect of the self directly.</p><p>E</p><p>Once children have acquired a certain level of self-awareness, they begin to place themselves in a whole series of categories, which together play such an important part in defining them uniquely as 'themselves'. This second step in the development of a full sense of self is what James called the 'self-as-object'. This has been seen by many to be the aspect of the self which is most influenced by social elements, since it is made up of social roles (such as student, brother, colleague) and characteristics which derive their meaning from comparison or interaction with other people (such as trustworthiness, shyness, sporting ability).</p><p>F</p><p>Cooley and other researchers suggested a close connection between a person's own understanding of their identity and other people's understanding of it. Cooley believed that people build up their sense of identity from the reactions of others to them, and from the view they believe others have of them. He called the self-as-object the 'looking-glass self', since people come to see themselves as they are reflected in others. Mead (1934) went even further, and saw the self and the social world as inextricably bound together: 'The self is essentially a social structure, and it arises in social experience...it is impossible to conceive of a self arising outside of social experience.</p><p>G</p><p>Lewis and Brooks-Gunn argued that an important development milestone is reached when children become able to recognize themselves visually without the support of seeing contingent movement. This recognition occurs around their second birthday. In one experiment, Lewis and Brooks-Gunn (1979) dabbed some red powder on the noses of children who were playing in front of a mirror, and then observed how often they touched their noses. The psychologists reasoned that if the children knew what they usually looked like, they would be surprised by the unusual red mark and would start touching it. On the other hand, they found that children of 15 to 18 months are generally not able to recognize themselves unless other cues such as movement are present.</p><p>H</p><p>Finally, perhaps the most graphic expressions of self-awareness in general can be seen in the displays of rage which are most common from 18 months to 3 years of age. In a longitudinal study of groups of three or four children, Bronson (1975) found that the intensity of the frustration and anger in their disagreements increased sharply between the ages of 1 and 2 years. Often, the children's disagreements involved a struggle over a toy that none of them had played with before or after the tug-of-war: the children seemed to be disputing ownership rather than wanting to play with it. Although it may be less marked in other societies, the link between the sense of 'self' and of 'ownership' is a notable feature of childhood in Western societies.</p>",
+      "questions": {
+        "matching-information-1": {
+          "type": "Matching Information",
+          "instructions": "<p><i>Questions 14-19</i></p><p>Reading Passage 2 has eight paragraphs, <b>A-H</b>.</p><p>Which paragraph contains the following information?</p><p>Choose the correct letter, <b>A-H</b>, in boxes <b>14-19</b> on your answer sheet.</p><p><b>NB</b> You may use any letter more than once.</p>",
+          "items": [
+            {
+              "number": 14,
+              "question": "an account of the method used by researchers in a particular study"
+            },
+            {
+              "number": 15,
+              "question": "the role of imitation in developing a sense of identity"
+            },
+            {
+              "number": 16,
+              "question": "the age at which children can usually identify a static image of themselves"
+            },
+            {
+              "number": 17,
+              "question": "a reason for the limitations of scientific research into 'self-as-subject'"
+            },
+            {
+              "number": 18,
+              "question": "reference to a possible link between culture and a particular form of behaviour"
+            },
+            {
+              "number": 19,
+              "question": "examples of the wide range of features that contribute to the sense of 'self-as-object'"
+            }
+          ]
+        },
+        "matching-features-1": {
+          "type": "Matching Features",
+          "instructions": "<p><i>Questions 20-23</i></p><p>Look at the following findings (Questions 20-23) and the list of researchers below.</p><p>Match each finding with the correct researcher or researchers, <b>A-E</b>.</p><p>Choose the correct letter, <b>A-E</b>, in boxes <b>20-23</b> on your answer sheet.</p>",
+          "features": [
+            { "id": "A", "text": "James" },
+            { "id": "B", "text": "Cooley" },
+            { "id": "C", "text": "Lewis and Brooks-Gunn" },
+            { "id": "D", "text": "Mead" },
+            { "id": "E", "text": "Bronson" }
+          ],
+          "items": [
+            {
+              "number": 20,
+              "question": "A sense of identity can never be formed without relationships with other people."
+            },
+            {
+              "number": 21,
+              "question": "A child's awareness of self is related to a sense of mastery over things and people."
+            },
+            {
+              "number": 22,
+              "question": "At a certain age, children's sense of identity leads to aggressive behaviour."
+            },
+            {
+              "number": 23,
+              "question": "Observing their own reflection contributes to children's self awareness."
+            }
+          ]
+        },
+        "summary-completion-1": {
+          "type": "Summary Completion",
+          "instructions": "<p><i>Questions 24-26</i></p><p>Complete the summary below.</p><p>Choose <b>ONE WORD ONLY</b> from the passage for each answer.</p><p>Write your answers in boxes <b>24-26</b> on your answer sheet.</p>",
+          "summary": "<b>How children acquire a sense of identity</b><br>First, children come to realise that they can have an effect on the world around them, for example by handling objects, or causing the image to move when they face a [24]. This aspect of self-awareness is difficult to research directly, because of [25] problems.<br>Secondly, children start to become aware of how they are viewed by others. One important stage in this process is the visual recognition of themselves which usually occurs when they reach the age of two. In Western societies at least, the development of self awareness is often linked to a sense of [26], and can lead to disputes.",
+          "items": [{ "number": 24 }, { "number": 25 }, { "number": 26 }]
+        }
+      }
+    },
+    {
+      "id": "passage-3",
+      "title": "The Development of Museums",
+      "text": "<h3>The Development of Museums</h3><p>A</p><p>The conviction that historical relics provide infallible testimony about the past is rooted in the nineteenth and early twentieth centuries, when science was regarded as objective and value free. As one writer observes: \"Although it is now evident that artefacts are as easily altered as chronicles, public faith in their veracity endures: a tangible relic seems 'ipso facto' real.\" Such conviction was, until recently, reflected in museum displays. Museums used to look - and some still do - much like storage rooms of objects packed together in showcases: good for scholars who wanted to study the subtle differences in design, but not for the ordinary visitor, to whom it all looked alike. Similarly, the information accompanying the objects often made little sense to the lay visitor. The content and format of explanations dated back to a time when the museum was the exclusive domain of the scientific researcher.</p><p>B</p><p>Recently, however, attitudes towards history and the way it should be presented have altered. The key word in heritage display is now 'experience', the more exciting the better and if possible, involving all the senses. Good examples of this approach in the UK are the Jorvik Center in York; the National Museum of Photography, Film and Television in Bradford; and the Imperial War Museum in London. In the US the trend emerged much earlier: Williamsburg has been a prototype for many heritage developments in other parts of the world. No one can predict where the process will end. On so-called heritage sites the re-enactment of historical events is increasingly popular, and computers will soon provide virtual reality experiences, which will present visitors with a vivid image of the period of their choice, in which they themselves can act as if part of the historical environment. Such developments have been criticized as an intolerable vulgarization, but the success of many historical theme parks and similar locations suggests that the majority of the public does not share this opinion.</p><p>C</p><p>In a related development, the sharp distinction between museum and heritage sites on the one hand, and theme parks on the other, is gradually evaporating. They already borrow ideas and concepts from one another. For example, museums have adopted story lines for exhibitions, sites have accepted 'theming' as a relevant tool, and theme parks are moving towards more authenticity and research-based presentations. In zoos, animals are no longer kept in cages, but in great spaces, either in the open air or in enormous greenhouses, such as the jungle and desert environments in Burgers' Zoo in Holland. This particular trend is regarded as one of the major developments in the presentation of natural history in the twentieth century.</p><p>D</p><p>Theme parks are undergoing other changes, too, as they try to present more serious social and cultural issues, and move away from fantasy. This development is a response to market forces and , although museums and heritage sites have a special, rather distinct, role to fulfil, they are also operating in a very competitive environment, where visitors make choices on how and where to spend their free time. Heritage and museum experts do not have to invent stories and recreate historical environments to attract their visitors: their assets are already in place. However, exhibits must be both based on artefacts and facts as we know them, and attractively presented. Those who are professionally engaged in the art of interpreting history are thus in a difficult position, as they must steer a narrow course between the demands of 'evidence' and 'attractiveness', especially given the increasing need in the heritage industry for income-generating activities.</p><p>E</p><p>It could be claimed that in order to make everything in heritage more 'real', historical accuracy must be increasingly altered. For example, Pithecanthropus erectus is depicted in an Indonesian museum with Malay facial features, because this corresponds to public perceptions. Similarly, in the Museum of Natural History in Washington, Neanderthal man is shown making a dominant gesture to his wife. Such presentations tell us more about contemporary perceptions of the world than about our ancestors. There is one compensation, however, for the professionals who make these interpretations: if they did not provide the interpretation, visitors would do it for themselves, based on their own ideas, misconceptions and prejudices. And no matter how exciting the result, it would contain a lot more bias than the presentations provided by experts.</p><p>F</p><p>Human bias is inevitable, but another source of bias in the representation of history has to do with the transitory nature of the materials themselves. The simple fact is that not everything from history survives the historical process. Castles, palaces and cathedrals have a longer lifespan than the dwellings of ordinary people. The same applies to the furnishings and other contents of the premises. In a town like Leyden in Holland, which in the seventeenth century was occupied by approximately the same number of inhabitants as today, people lived within the walled town, an area more than five times smaller than modern Leyden. In most of the houses several families lived together in circumstances beyond our imagination. Yet in museums, fine period rooms give only an image of the lifestyle of the upper class of that era. No wonder that people who stroll around exhibitions are filled with nostalgia; the evidence in museums indicates that life was so much better in the past. This notion is induced by the bias in its representation in museums and heritage centers.</p>",
+      "questions": {
+        "matching-headings-1": {
+          "type": "Matching Headings",
+          "instructions": "<p><i>Questions 27-30</i></p><p>Reading Passage 3 has six paragraphs, <b>A-F</b>.</p><p>Choose the correct heading for paragraphs <b>B-E</b> from the list of headings below.</p><p>Choose the correct number, <b>i-vii</b>, in boxes <b>27-30</b> on your answer sheet.</p>",
+          "headings": [
+            { "id": "i", "text": "Commercial pressures on people in charge" },
+            { "id": "ii", "text": "Mixed views on current changes to museums" },
+            {
+              "id": "iii",
+              "text": "Interpreting the facts to meet visitor expectations"
+            },
+            { "id": "iv", "text": "The international dimension" },
+            { "id": "v", "text": "Collections of factual evidence" },
+            {
+              "id": "vi",
+              "text": "Fewer differences between public attractions"
+            },
+            { "id": "vii", "text": "Current reviews and suggestions" }
+          ],
+          "items": [
+            {
+              "number": 27,
+              "paragraph": "B"
+            },
+            {
+              "number": 28,
+              "paragraph": "C"
+            },
+            {
+              "number": 29,
+              "paragraph": "D"
+            },
+            {
+              "number": 30,
+              "paragraph": "E"
+            }
+          ]
+        },
+        "multiple-choice-2": {
+          "type": "Multiple Choice",
+          "instructions": "<p><i>Questions 31-36</i></p><p>Choose the correct letter, <b>A, B, C or D</b>.</p>",
+          "items": [
+            {
+              "number": 31,
+              "question": "Compared with today's museums, those of the past",
+              "options": [
+                "did not present history in a detailed way.",
+                "were not primarily intended for the public.",
+                "were more clearly organised.",
+                "preserved items with greater care."
+              ]
+            },
+            {
+              "number": 32,
+              "question": "According to the writer, current trends in the heritage industry",
+              "options": [
+                "emphasise personal involvement.",
+                "have their origins in York and London.",
+                "rely on computer images.",
+                "reflect minority tastes."
+              ]
+            },
+            {
+              "number": 33,
+              "question": "The writer says that museums, heritage sites and theme parks",
+              "options": [
+                "often work in close partnership.",
+                "try to preserve separate identities.",
+                "have similar exhibits.",
+                "are less easy to distinguish than before."
+              ]
+            },
+            {
+              "number": 34,
+              "question": "The writer says that in preparing exhibits for museums, experts",
+              "options": [
+                "should pursue a single objective.",
+                "have to do a certain amount of language translation.",
+                "should be free from commercial constraints.",
+                "have to balance conflicting priorities."
+              ]
+            },
+            {
+              "number": 35,
+              "question": "In paragraph E, the writer suggests that some museum exhibits",
+              "options": [
+                "fail to match visitor expectations.",
+                "are based on the false assumptions of professionals.",
+                "reveal more about present beliefs than about the past.",
+                "allow visitors to make more use of their imagination."
+              ]
+            },
+            {
+              "number": 36,
+              "question": "The passage ends by noting that our view of history is biased because",
+              "options": [
+                "we fail to use our imagination.",
+                "only very durable objects remain from the past.",
+                "we tend to ignore things that displease us.",
+                "museum exhibits focus too much on the local area."
+              ]
+            }
+          ]
+        },
+        "true-false-notgiven-2": {
+          "type": "True/False/Not Given",
+          "instructions": "<p><i>Questions 37-40</i></p><p>Do the following statements agree with the information given in Reading Passage 3?</p><p>In boxes <b>37-40</b> on your answer sheet, choose</p><p><b>TRUE</b> if the statement agrees with the information<br/><b>FALSE</b> if the statement contradicts the information<br/><b>NOT GIVEN</b> if there is no information on this</p>",
+          "items": [
+            {
+              "number": 37,
+              "statement": "Consumers prefer theme parks which avoid serious issues."
+            },
+            {
+              "number": 38,
+              "statement": "More people visit museums than theme parks."
+            },
+            {
+              "number": 39,
+              "statement": "The boundaries of Leyden have changed little since the seventeenth century."
+            },
+            {
+              "number": 40,
+              "statement": "Museums can give a false impression of how life used to be."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "answers": {
+    "1": "FALSE",
+    "2": "NOT GIVEN",
+    "3": "TRUE",
+    "4": "FALSE",
+    "5": "TRUE",
+    "6": "NOT GIVEN",
+    "7": "thorium",
+    "8": "pitchblende",
+    "9": "radium",
+    "10": "soldiers",
+    "11": "illness",
+    "12": "neutron",
+    "13": "leukaemia",
+    "14": "G",
+    "15": "C",
+    "16": "G",
+    "17": "D",
+    "18": "H",
+    "19": "E",
+    "20": "D",
+    "21": "B",
+    "22": "E",
+    "23": "C",
+    "24": "mirror",
+    "25": "communication",
+    "26": "ownership",
+    "27": "ii",
+    "28": "vi",
+    "29": "i",
+    "30": "iii",
+    "31": "B",
+    "32": "A",
+    "33": "D",
+    "34": "D",
+    "35": "C",
+    "36": "B",
+    "37": "FALSE",
+    "38": "NOT GIVEN",
+    "39": "FALSE",
+    "40": "TRUE"
+  }
+}

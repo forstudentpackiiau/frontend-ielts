@@ -1,0 +1,423 @@
+{
+  "id": "cambridge6-listening-test2",
+  "book": "cambridge6",
+  "section": "listening",
+  "title": "IELTS Book 6 Listening Test 2",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-2-Cambridge-6-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "8",
+    "2": "Tamer",
+    "3": "green button",
+    "4": "library",
+    "5": "education department",
+    "6": "castles",
+    "7": "old clothes",
+    "8": "bottle tops",
+    "9": "undersea worlds",
+    "10": "silver paper",
+    "11": "king street",
+    "12": "central",
+    "13": "half hour",
+    "14": "refreshments",
+    "15": "10.15",
+    "16": "advance",
+    "17": "seat reservations",
+    "18": "C",
+    "19": "D",
+    "20": "G",
+    "21": "catalogues",
+    "22": "computer centre",
+    "23": "checklist",
+    "24": "teaching experience",
+    "25": "classroom",
+    "26": "review",
+    "27": "schools",
+    "28": "2000",
+    "29": "end of term",
+    "30": "research",
+    "31": "A",
+    "32": "B",
+    "33": "C",
+    "34": "A",
+    "35": "A",
+    "36": "C",
+    "37": "A",
+    "38": "great train robbery",
+    "39": "sound effects",
+    "40": "poor sound quality"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "questions": [
+        {
+          "type": "notes_completion",
+          "instruction": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "data": {
+            "title": "Children's Art and Craft Workshops",
+            "example": {
+              "text": "Workshops organized every:",
+              "answer": "Saturday"
+            },
+            "items": [
+              {
+                "id": 1,
+                "text": "Adults must accompany children under"
+              },
+              {
+                "text": "Cost: £2.50"
+              },
+              {
+                "id": 2,
+                "text": "Workshops held in: Winter House,",
+                "suffix": "Street"
+              },
+              {
+                "id": 3,
+                "text": "Security device: must push the",
+                "suffix": "to open door"
+              },
+              {
+                "id": 4,
+                "text": "Should leave car behind the"
+              },
+              {
+                "id": 5,
+                "text": "Book workshops by phoning the",
+                "suffix": "(on 200765)"
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Next two workshops",
+            "headers": [
+              "Date",
+              "Workshop title",
+              "Children advised to wear",
+              "Please bring (if possible)"
+            ],
+            "rows": [
+              {
+                "date": "16/11",
+                "cells": [
+                  {
+                    "prefix": "building",
+                    "id": 6
+                  },
+                  {
+                    "id": 7
+                  },
+                  {
+                    "id": 8
+                  }
+                ]
+              },
+              {
+                "date": "23/11",
+                "cells": [
+                  {
+                    "id": 9
+                  },
+                  {
+                    "text": "(Nothing special)"
+                  },
+                  {
+                    "id": 10
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "questions": [
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "title": "Train Information",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Local services depart from",
+              "suffix": "railway station."
+            },
+            {
+              "id": 12,
+              "text": "National services depart from the",
+              "suffix": "railway station."
+            },
+            {
+              "id": 13,
+              "text": "Trains for London depart every",
+              "suffix": "each day during the week."
+            },
+            {
+              "id": 14,
+              "text": "The price of a first class ticket includes"
+            }
+          ]
+        },
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "data": {
+            "headers": ["Type of ticket", "Details"],
+            "rows": [
+              {
+                "type": "Standard open",
+                "details": "no restrictions"
+              },
+              {
+                "type": "Super save",
+                "details": "travel after 8.45"
+              },
+              {
+                "type": "Special",
+                "details": [
+                  "travel after",
+                  {
+                    "id": 15
+                  },
+                  "and at weekends"
+                ]
+              },
+              {
+                "type": {
+                  "id": 16
+                },
+                "details": [
+                  "buy at least six days ahead",
+                  "limited numbers",
+                  {
+                    "id": 17
+                  },
+                  "essential"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice_multiple",
+          "instruction": "Which THREE attractions can you visit at present by train from Trebirch?",
+          "id": 18,
+          "options": [
+            "A. a science museum",
+            "B. a theme park",
+            "C. a climbing wall",
+            "D. a mining museum",
+            "E. an aquarium",
+            "F. a castle",
+            "G. a zoo"
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "questions": [
+        {
+          "type": "table_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "data": {
+            "title": "Dissertation Tutorial Record (Education)",
+            "headers": [
+              "Target previously agreed",
+              "Work completed",
+              "Further action suggested"
+            ],
+            "rows": [
+              {
+                "target": "Investigate suitable data analysis software",
+                "work_completed": [
+                  "Read IT",
+                  {
+                    "id": 21
+                  },
+                  "Spoken to Jane Prince, Head of the",
+                  {
+                    "id": 22
+                  }
+                ],
+                "action": "Sign up for some software practice sessions"
+              },
+              {
+                "target": [
+                  "Prepare a",
+                  {
+                    "id": 23
+                  },
+                  "for survey"
+                ],
+                "work_completed": "Completed and sent for review",
+                "action": [
+                  "Add questions in section three on",
+                  {
+                    "id": 24
+                  }
+                ]
+              },
+              {
+                "target": "Further reading about discipline",
+                "work_completed": [
+                  "Read Banerjee N.B. could not find Ericsson's essays on managing the",
+                  {
+                    "id": 25
+                  }
+                ],
+                "action": "Obtain from library through special loans service"
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "data": {
+            "headers": ["New target", "Work completed", "Timing"],
+            "rows": [
+              {
+                "target": [
+                  "Do further work on Chapter 1 (give the title: Context",
+                  {
+                    "id": 26
+                  },
+                  ")"
+                ],
+                "work_completed": [
+                  "Add statistics on the",
+                  {
+                    "id": 27
+                  },
+                  "in various zones include more references to works dated after",
+                  {
+                    "id": 28
+                  }
+                ],
+                "timing": [
+                  "By the",
+                  {
+                    "id": 29
+                  }
+                ]
+              },
+              {
+                "target": "Prepare list of main sections for Chapter 2",
+                "work_completed": "Use index cards to help in organization",
+                "timing": [
+                  "Before starting the",
+                  {
+                    "id": 30
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "questions": [
+        {
+          "title": "The history of moving pictures",
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 31,
+              "text": "Some photographs of a horse running showed",
+              "options": [
+                "A. all feet off the ground",
+                "B. at least one foot on the ground",
+                "C. two feet off the ground"
+              ]
+            },
+            {
+              "id": 32,
+              "text": "The Scotsman employed by Edison",
+              "options": [
+                "A. designed a system to use the technology Edison had invited",
+                "B. used available technology to make a new system",
+                "C. was already an expert in motion picture technology"
+              ]
+            },
+            {
+              "id": 33,
+              "text": "One major problem with the first system was that",
+              "options": [
+                "A. only one person could be filmed",
+                "B. people could only see very short films",
+                "C. the camera was very heavy"
+              ]
+            },
+            {
+              "id": 34,
+              "text": "Rival systems started to appear in Europe after people had",
+              "options": [
+                "A. been told about the American system",
+                "B. seen the American system",
+                "C. used the American system"
+              ]
+            },
+            {
+              "id": 35,
+              "text": "In 1895, a famous new system was developed by",
+              "options": [
+                "A. a French team working alone",
+                "B. a French and German team working together",
+                "C. a German team who invented the word 'cinema'"
+              ]
+            },
+            {
+              "id": 36,
+              "text": "Longer films were not made at the time because of problems involving",
+              "options": [
+                "A. the subject matters",
+                "B. the camera",
+                "C. the film projector"
+              ]
+            },
+            {
+              "id": 37,
+              "text": "The 'Lantham Loop' invention relied on",
+              "options": [
+                "A. removing tension between the film reels",
+                "B. adding three more films reels to the system",
+                "C. making one of the film reels more effective"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sentence_completion",
+          "instruction": "Complete the sentences below. Write NO MORE THAN THREE WORDS for each answer.",
+          "questions": [
+            {
+              "id": 38,
+              "text": "The first motion picture was called The"
+            },
+            {
+              "id": 39,
+              "text": "were used for the first time on film in 1926."
+            },
+            {
+              "id": 40,
+              "text": "Subtitles were added to The Lights of New York because of its"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

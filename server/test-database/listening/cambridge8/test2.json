@@ -1,0 +1,441 @@
+{
+  "id": "cambridge8-listening-test2",
+  "book": "cambridge8",
+  "section": "listening",
+  "title": "IELTS Book 8 Listening Test 2",
+  "activated": true,
+  "duration": 1800,
+  "audio": "https://www.ieltsworldly.com/wp-content/uploads/2024/03/Audio-for-IELTS-Listening-Test-2-Cambridge-8-Book.mp3",
+  "total_questions": 40,
+  "answers": {
+    "1": "milperra",
+    "2": "first class movers",
+    "3": "28 November",
+    "4": "screen",
+    "5": "bathroom",
+    "6": "door",
+    "7": "140",
+    "8": "leg",
+    "9": "plates",
+    "10": "60",
+    "11": "B",
+    "12": "forest",
+    "13": "fish farms",
+    "14": "market garden",
+    "15": "C",
+    "16": "A",
+    "17": "C",
+    "18": "B",
+    "19": "C",
+    "20": "A",
+    "21": "A",
+    "22": "B",
+    "23": "C",
+    "24": "A",
+    "25": "insects",
+    "26": "feeding",
+    "27": "laboratory",
+    "28": "water",
+    "29": "wings",
+    "30": "reliable",
+    "31": "B",
+    "32": "B",
+    "33": "A",
+    "34": "A",
+    "35": "C",
+    "36": "C",
+    "37": "B",
+    "38": "F",
+    "39": "D",
+    "40": "C"
+  },
+  "parts": [
+    {
+      "part": 1,
+      "title": "Total Insurance Incident Report",
+      "questions": [
+        {
+          "type": "form_completion",
+          "instruction": "Complete the form below. Write NO MORE THAN THREE WORDS OR A NUMBER for each answer.",
+          "data": {
+            "title": "TOTAL INSURANCE INCIDENT REPORT",
+            "example": {
+              "text": "Name:",
+              "answer": "Michael Alexander"
+            },
+            "items": [
+              {
+                "label": "Address:",
+                "text": "24 Manly Street,",
+                "id": 1,
+                "suffix": "Sydney"
+              },
+              {
+                "label": "Shipping agent:",
+                "id": 2
+              },
+              {
+                "label": "Place of origin:",
+                "text": "China"
+              },
+              {
+                "label": "Date of arrival:",
+                "id": 3
+              },
+              {
+                "label": "Reference number:",
+                "text": "601ACK"
+              }
+            ]
+          }
+        },
+        {
+          "type": "table_completion",
+          "instruction": "Complete the table below. Write ONE WORD OR A NUMBER for each answer.",
+          "data": {
+            "headers": ["Item", "Damage", "Cost to repair/replace"],
+            "rows": [
+              {
+                "item": "Television",
+                "damage": [
+                  "the",
+                  {
+                    "id": 4
+                  },
+                  "needs to be replaced"
+                ],
+                "cost": "not known"
+              },
+              {
+                "item": [
+                  "The",
+                  {
+                    "id": 5
+                  },
+                  "cabinet"
+                ],
+                "damage": [
+                  "the",
+                  {
+                    "id": 6
+                  },
+                  "of the cabinet is damaged"
+                ],
+                "cost": {
+                  "id": 7,
+                  "prefix": "$"
+                }
+              },
+              {
+                "item": "Dining room table",
+                "damage": [
+                  "a",
+                  {
+                    "id": 8
+                  },
+                  "is split"
+                ],
+                "cost": "$200"
+              },
+              {
+                "item": "Set of china",
+                "damage": [
+                  "six",
+                  {
+                    "id": 9
+                  },
+                  "were broken"
+                ],
+                "cost": [
+                  "about",
+                  {
+                    "id": 10,
+                    "prefix": "$"
+                  },
+                  "in total"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Agricultural Park",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 11,
+              "text": "According to the speaker, the main purposes of the park are",
+              "options": [
+                "A. education and entertainment",
+                "B. research and education",
+                "C. research and entertainment"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "plan_labeling",
+          "instruction": "Label the plan below. Write NO MORE THAN TWO WORDS for each answer.",
+          "data": {
+            "title": "Agricultural Park",
+            "image": "https://i0.wp.com/www.ieltsworldly.com/wp-content/uploads/2024/03/Map-IELTS-Cambridge-Book-8-Listening-Test-2.webp",
+            "items": [
+              {
+                "id": 12,
+                "suffix": "area"
+              },
+              {
+                "id": 13,
+                "prefix": "The"
+              },
+              {
+                "id": 14,
+                "suffix": "area"
+              }
+            ]
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 15,
+              "text": "When are the experimental areas closed to the public?",
+              "options": [
+                "A. all the year round",
+                "B. almost all the year",
+                "C. a short time every year"
+              ]
+            },
+            {
+              "id": 16,
+              "text": "How can you move around the park?",
+              "options": [
+                "A. by tram, walking or bicycle",
+                "B. by solar car or bicycle",
+                "C. by bicycle, walking or bus"
+              ]
+            },
+            {
+              "id": 17,
+              "text": "The rare breed animals kept in the park include",
+              "options": [
+                "A. hens and horses",
+                "B. goats and cows",
+                "C. goats and hens"
+              ]
+            },
+            {
+              "id": 18,
+              "text": "What is the main purpose of having the Rare Breeds Section?",
+              "options": [
+                "A. to save unusual animals",
+                "B. to keep a variety of breeds",
+                "C. to educate the public"
+              ]
+            },
+            {
+              "id": 19,
+              "text": "What can you see in the park at the present time?",
+              "options": [
+                "A. the arrival of wild birds",
+                "B. fruit tree blossom",
+                "C. a demonstration of fishing"
+              ]
+            },
+            {
+              "id": 20,
+              "text": "The shop contains books about",
+              "options": [
+                "A. animals",
+                "B. local traditions",
+                "C. the history of the park"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Honey Bees in Australia",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 21,
+              "text": "Where in Australia have Asian honey bees been found in the past?",
+              "options": [
+                "A. Queensland",
+                "B. New South Wales",
+                "C. several states"
+              ]
+            },
+            {
+              "id": 22,
+              "text": "A problem with Asian honey bees is that they",
+              "options": [
+                "A. attack native bees",
+                "B. carry parasites",
+                "C. damage crops"
+              ]
+            },
+            {
+              "id": 23,
+              "text": "What point is made about Australian bees?",
+              "options": [
+                "A. Their honey varies in quality",
+                "B. Their size stops them from pollinating some flowers",
+                "C. They are sold to customers abroad"
+              ]
+            },
+            {
+              "id": 24,
+              "text": "Grant Freeman says that if Asian honey bees got into Australia,",
+              "options": [
+                "A. the country's economy would be affected",
+                "B. they could be used in the study of allergies",
+                "C. certain areas of agriculture would benefit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "summary_completion",
+          "instruction": "Complete the summary below. Write ONE WORD ONLY for each answer.",
+          "data": {
+            "title": "Looking for Asian honey bees",
+            "text": "Birds called Rainbow Bee Eaters eat only [25] , and cough up small bits of skeleton and other products in a pellet. Researchers go to the locations the bee eaters like to use for [26] . They collect the pellets and take them to a [27] for analysis. Here [28] is used to soften them, and the researchers look for the [29] of Asian bees in the pellets. The benefit of this research is that the result is more [30] than searching for live Asian bees.",
+            "gaps": [
+              {
+                "id": 25
+              },
+              {
+                "id": 26
+              },
+              {
+                "id": 27
+              },
+              {
+                "id": 28
+              },
+              {
+                "id": 29
+              },
+              {
+                "id": 30
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Research on Questions about Doctors",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "instruction": "Choose the correct letter A, B or C.",
+          "questions": [
+            {
+              "id": 31,
+              "text": "In order to set up her research programme, Shona got",
+              "options": [
+                "A. advice from personal friends in other countries",
+                "B. help from students in other countries",
+                "C. information from her tutor's contacts in other countries"
+              ]
+            },
+            {
+              "id": 32,
+              "text": "What types of people were included in the research?",
+              "options": [
+                "A. young people in their first job",
+                "B. men who were working",
+                "C. women who were unemployed"
+              ]
+            },
+            {
+              "id": 33,
+              "text": "Shona says that in her questionnaire her aim was",
+              "options": [
+                "A. to get a wide range of data",
+                "B. to limit people's responses",
+                "C. to guide people through interviews"
+              ]
+            },
+            {
+              "id": 34,
+              "text": "What do Shona's initial results show about medical services in Britain?",
+              "options": [
+                "A. Current concerns are misrepresented by the press",
+                "B. Financial issues are critical to the government",
+                "C. Reforms within hospitals have been unsuccessful"
+              ]
+            },
+            {
+              "id": 35,
+              "text": "Shona needs to do further research in order to",
+              "options": [
+                "A. present the government with her findings",
+                "B. decide the level of extra funding needed",
+                "C. identify the preferences of the public"
+              ]
+            },
+            {
+              "id": 36,
+              "text": "Shona has learnt from the research project that",
+              "options": [
+                "A. it is important to plan projects carefully",
+                "B. people do not like answering questions",
+                "C. colleagues do not always agree"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "matching",
+          "instruction": "Which statement applies to each of the following people who were interviewed by Shona? Choose FOUR answers from the box and write the correct letter, A-F, next to questions 37-40.",
+          "data": {
+            "options": [
+              "A. gave false data",
+              "B. decided to stop participating",
+              "C. refused to tell Shona about their job",
+              "D. kept changing their mind about participating",
+              "E. became very angry with Shona",
+              "F. was worried about confidentiality"
+            ],
+            "items": [
+              {
+                "id": 37,
+                "text": "a person interviewed in the street"
+              },
+              {
+                "id": 38,
+                "text": "an undergraduate at the university"
+              },
+              {
+                "id": 39,
+                "text": "a colleague in her department"
+              },
+              {
+                "id": 40,
+                "text": "a tutor in a foreign university"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
