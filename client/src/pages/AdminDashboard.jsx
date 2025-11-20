@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
-import axios from "axios";
+import api from "../api/config";
 import { toast } from "react-toastify";
 import ConfirmModal from "../components/ConfirmModal";
 // Use custom lightweight icons instead of react-icons (saves ~1.3MB)
@@ -23,7 +23,7 @@ export default function AdminDashboard() {
   const [combinedSubmissions, setCombinedSubmissions] = useState([]);
   const [showUserModal, setShowUserModal] = useState(false);
   const [editingUser, setEditingUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [showAnswersModal, setShowAnswersModal] = useState(false);
   const [selectedSubmission, setSelectedSubmission] = useState(null);
   const [testDatabase, setTestDatabase] = useState({
@@ -46,10 +46,13 @@ export default function AdminDashboard() {
     testDatabase: false,
   });
 
-  // Only fetch users on initial load (most important)
+  // Fetch users on mount and when switching to 'users' tab
   useEffect(() => {
-    fetchUsers();
-  }, []);
+    if (activeTab === "users") {
+      setLoading(true);
+      fetchUsers();
+    }
+  }, [activeTab]);
 
   // Fetch data based on active tab (lazy loading)
   useEffect(() => {
@@ -70,7 +73,7 @@ export default function AdminDashboard() {
 
   const fetchTestDatabase = async () => {
     try {
-      const response = await axios.get("/api/tests/all");
+      const response = await api.get("/tests/all");
       // Ensure testDatabase is always an object with arrays
       setTestDatabase({
         listening: Array.isArray(response.data.listening)
@@ -91,17 +94,19 @@ export default function AdminDashboard() {
 
   const fetchUsers = async () => {
     try {
-      const response = await axios.get("/api/users");
+      const response = await api.get("/users");
       setUsers(Array.isArray(response.data) ? response.data : []);
     } catch (error) {
       setUsers([]);
       console.error("Error fetching users:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
   const fetchSubmissions = async () => {
     try {
-      const response = await axios.get("/api/submissions/all");
+      const response = await api.get("/submissions/all");
       setSubmissions(Array.isArray(response.data) ? response.data : []);
     } catch (error) {
       setSubmissions([]);
@@ -111,7 +116,7 @@ export default function AdminDashboard() {
 
   const fetchCombinedSubmissions = async () => {
     try {
-      const response = await axios.get("/api/submissions/combined/all", {
+      const response = await api.get("/submissions/combined/all", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       setCombinedSubmissions(Array.isArray(response.data) ? response.data : []);
@@ -129,7 +134,7 @@ export default function AdminDashboard() {
         "Are you sure you want to delete this user? This action cannot be undone.",
       onConfirm: async () => {
         try {
-          await axios.delete(`/api/users/${userId}`);
+          await api.delete(`/users/${userId}`);
           toast.success("User deleted successfully!");
           fetchUsers();
         } catch (error) {
@@ -142,10 +147,10 @@ export default function AdminDashboard() {
   const handleSaveUser = async (userData) => {
     try {
       if (editingUser) {
-        await axios.put(`/api/users/${editingUser.id}`, userData);
+        await api.put(`/users/${editingUser.id}`, userData);
         toast.success("User updated successfully!");
       } else {
-        await axios.post("/api/users", userData);
+        await api.post("/users", userData);
         toast.success("User created successfully!");
       }
       setShowUserModal(false);
@@ -455,7 +460,7 @@ function TestsTab({ testDatabase, onRefreshTests }) {
 
   const handleToggleActivation = async (testId, currentStatus) => {
     try {
-      await axios.patch(`/api/tests/${testId}/activate`, {
+      await api.patch(`/tests/${testId}/activate`, {
         activated: !currentStatus,
       });
       toast.success("Test activation status updated successfully!");
@@ -728,8 +733,8 @@ function StatisticsTab({ submissions, users, onViewDetails }) {
 function CompleteExamsTab({ combinedSubmissions, users }) {
   const handleDownloadPDF = async (submissionId, username) => {
     try {
-      const response = await axios.get(
-        `/api/submissions/combined/${submissionId}/pdf`,
+      const response = await api.get(
+        `/submissions/combined/${submissionId}/pdf`,
         {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
           responseType: "blob",
@@ -987,7 +992,7 @@ function AnswersDetailsModal({ submission, users, onClose }) {
   useEffect(() => {
     const fetchDetailedResults = async () => {
       try {
-        const response = await axios.get(`/api/submissions/${submission.id}`, {
+        const response = await api.get(`/submissions/${submission.id}`, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
         console.log("Detailed results received:", response.data);

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useLocation, useNavigate } from "react-router-dom";
-import axios from "axios";
+import api from "../api/config";
 import { toast } from "react-toastify";
 import { HiChevronLeft, HiChevronRight } from "../components/Icons";
 import ConfirmModal from "../components/ConfirmModal";
@@ -35,7 +35,7 @@ export default function UserWriting() {
 
   const fetchAssignedTests = async () => {
     try {
-      const response = await axios.get("/api/tests/assigned", {
+      const response = await api.get("/tests/assigned", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       const writingTest = response.data.writing;
@@ -53,7 +53,7 @@ export default function UserWriting() {
 
   const fetchTestData = async (testId) => {
     try {
-      const response = await axios.get(`/api/tests/${testId}`, {
+      const response = await api.get(`/tests/${testId}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       setTestData(response.data);
@@ -105,8 +105,8 @@ export default function UserWriting() {
       setShowSubmitModal(false);
       toast.info("Analyzing your writing with AI...");
 
-      await axios.post(
-        "/api/submissions",
+      await api.post(
+        "/submissions",
         {
           testId: testData.id,
           answers,

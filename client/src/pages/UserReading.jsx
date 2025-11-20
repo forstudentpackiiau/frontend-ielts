@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useLocation, useNavigate } from "react-router-dom";
-import axios from "axios";
+import api from "../api/config";
 import { toast } from "react-toastify";
 import {
   HiChevronLeft,
@@ -64,7 +64,7 @@ export default function UserReading() {
 
   const fetchAssignedTests = async () => {
     try {
-      const response = await axios.get("/api/tests/assigned", {
+      const response = await api.get("/tests/assigned", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       // Response is an object: {listening: {...}, reading: {...}, writing: {...}}
@@ -85,7 +85,7 @@ export default function UserReading() {
 
   const fetchTestData = async (testId) => {
     try {
-      const response = await axios.get(`/api/tests/${testId}`, {
+      const response = await api.get(`/tests/${testId}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       setTestData(response.data);
@@ -125,8 +125,8 @@ export default function UserReading() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post(
-        "/api/submissions",
+      await api.post(
+        "/submissions",
         {
           testId: selectedTest,
           answers,

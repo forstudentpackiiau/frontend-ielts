@@ -118,7 +118,7 @@ export const AuthProvider = ({ children }) => {
         };
       }
 
-      const response = await api.post("/api/auth/login", {
+      const response = await api.post("/auth/login", {
         username: username.trim(),
         password,
       });

@@ -60,7 +60,7 @@ const authLimiter = rateLimit({
 });
 
 app.use("/api/", limiter);
-app.use("/api/auth/login", authLimiter);
+app.use("/auth/login", authLimiter);
 
 // Body parser with size limits to prevent large payload attacks
 app.use(express.json({ limit: "10mb" }));

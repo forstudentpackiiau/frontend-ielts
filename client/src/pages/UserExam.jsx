@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import api from "../api/config";
 import { toast } from "react-toastify";
 import {
   HiVolumeUp,
@@ -66,7 +66,7 @@ export default function UserExam() {
     }
 
     try {
-      const response = await axios.get("/api/tests/assigned", {
+      const response = await api.get("/tests/assigned", {
         headers: authHeader,
       });
 
@@ -90,12 +90,9 @@ export default function UserExam() {
     if (!authHeader) return;
 
     try {
-      const response = await axios.get(
-        "/api/submissions/combined/my-submission",
-        {
-          headers: authHeader,
-        }
-      );
+      const response = await api.get("/submissions/combined/my-submission", {
+        headers: authHeader,
+      });
 
       if (response.data && typeof response.data === "object") {
         const submissionData = response.data.submissionData;

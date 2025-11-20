@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate, useLocation } from "react-router-dom";
-import axios from "axios";
+import api from "../api/config";
 import { toast } from "react-toastify";
 import { HiVolumeUp, HiChevronLeft, HiChevronRight } from "../components/Icons";
 import ConfirmModal from "../components/ConfirmModal";
@@ -47,7 +47,7 @@ export default function UserListening() {
 
   const fetchAssignedTest = async () => {
     try {
-      const response = await axios.get("/api/tests/assigned", {
+      const response = await api.get("/tests/assigned", {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       if (response.data.listening) {
@@ -64,7 +64,7 @@ export default function UserListening() {
 
   const fetchTestData = async (testId) => {
     try {
-      const response = await axios.get(`/api/tests/${testId}`, {
+      const response = await api.get(`/tests/${testId}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });
       setTestData(response.data);
@@ -177,8 +177,8 @@ export default function UserListening() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post(
-        "/api/submissions",
+      await api.post(
+        "/submissions",
         {
           testId: testData.id,
           answers,
