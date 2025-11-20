@@ -22,11 +22,7 @@ app.use(helmet()); // Adds security headers
 // CORS with performance optimizations
 app.use(
   cors({
-    origin: process.env.CLIENT_URL?.replace(/\/$/, "") || [
-      "http://localhost:5173",
-      "http://localhost:3000",
-      "https://ielts-exam-two.vercel.app",
-    ],
+    origin: process.env.CLIENT_URL,
     credentials: true,
     maxAge: 86400, // Cache preflight requests for 24 hours
   })
